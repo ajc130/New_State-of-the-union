@@ -1,0 +1,22 @@
+start=speech
+meta=element meta {mixed{(den, class, kids, married, state, party, age, profession, term, title, date)}}
+den=element den {"episcopal" | "unitarian" | "deist" | "presbyterian" | "dutch reformed" | "unaffiliated" | "methodist" | "disciple of christ" | "baptist" | "congregationalist" | "quaker" | "roman catholic" | "episcopal deist"}
+class=element class {"lower" | "middle" | "upper"}
+kids=element kids {xsd:int}
+married=element married {"yes" | "no" | "divorced" | "widowed" | "divorced/remarried" | "widowed/remarried"}
+state=element state {text}
+party=element party {"unaffiliated" | "federalist" | "democratic-republican" | "democratic" | "whig" | "independent" | "republican" }
+age=element age {xsd:int}
+profession=element profession {"farmer" | "soldier" | "lawyer" | "diplomat" | "tailor" | "lawyer farmer" | "farmer soldier" | "soldier lawyer" | "lawyer diplomat" | "teacher lawyer" | "lawyer sherrif" | "public official soldier" | "lawyer judge" | "lawyer professor" | "farmer businessman" | "writer sailor" | "farmer sailor" | "community organizer professor" | "minister" | "teacher" | "sheriff" | "public official" | "judge" | "professor" | "newspaper publicist" | "engineer" | "businessman" | "writer" | "sailor" | "actor" | "community organizer"}
+term=element term {"1" | "2" | "3" | "4"}
+
+speech=element speech {meta, body}
+title=element title {text}
+date=element date {text}
+body=element body {p+}
+p=element p {mixed {reference*}}
+reference=element reference {mixed {god+, type, category}}
+god=element god {mixed {(style)}}
+style=attribute style {"poetic" | "name" | "Jesus" | "pronoun"| "title"}
+type=attribute type {"direct" | "indirect"}
+category=attribute category { "supplication" | "humility" | "praise"}
