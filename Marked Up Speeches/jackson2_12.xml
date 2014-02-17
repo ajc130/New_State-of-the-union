@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speech>
-<<<<<<< HEAD
-    <meta>
-=======
     <meta den="presbyterian" class="lower" married="widowed" kids="{xsd:0}" state="tennessee" party="democratic" age="{xsd:61}" profession="soldier/lawyer" term="{xsd:2}" >
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
         <title>Address by Andrew Jackson</title>
         <date>1833</date>
     </meta>
@@ -95,13 +91,8 @@
             preservation of a greater good, to recommend our invaluable Government and Union to the
             confidence and affections of the American people. </p>
         <p>
-<<<<<<< HEAD
-            <reference type="indirect" category="suplication">Finally, it is my most fervent prayer
-                to that <god style="poetic">Almighty Being</god> before whom I now stand, and who
-=======
             <reference type="direct" category="suplication">Finally, it is my most fervent prayer
                 to that <god style="title">Almighty Being</god> before whom I now stand, and who
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 has kept us in <god style="pronoun">His</god> hands from the infancy of our Republic
                 to the present day, that <god style="pronoun">He</god> will so overrule all my
                 intentions and actions and inspire the hearts of my fellow-citizens that we may be

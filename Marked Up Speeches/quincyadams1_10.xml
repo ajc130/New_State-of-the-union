@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speech>
-<<<<<<< HEAD
-    <meta>
-=======
     <meta den="unitarian" class="upper" married="married" kids="{xsd:5}" state="massachusetts" party="democratic-republican" age="{xsd:57}" profession="lawyer" term="1">
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
         <title>Address by John Quincy Adams</title>
         <date>1825</date>
     </meta>
@@ -226,20 +222,12 @@
             upright and pure, a heart devoted to the welfare of our country, and the unceasing
             application of all the faculties allotted to me to her service are all the pledges that
             I can give for the faithful performance of the arduous duties I am to undertake.
-<<<<<<< HEAD
-                <reference type="indirect" category="suplication">To the guidance of the legislative
-=======
                 <reference type="direct" category="suplication">To the guidance of the legislative
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 councils, to the assistance of the executive and subordinate departments, to the
                 friendly cooperation of the respective State governments, to the candid and liberal
                 support of the people so far as it may be deserved by honest industry and zeal, I
                 shall look for whatever success may attend my public service; and knowing that
-<<<<<<< HEAD
-                “except <god style="poetic">the Lord</god> keep the city the watchman waketh but in
-=======
                 “except <god style="title">the Lord</god> keep the city the watchman waketh but in
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 vain,” with fervent supplications for <god style="pronoun">His</god> favor, to <god
                     style="pronoun">His</god> overruling providence I commit with humble but
                 fearless confidence my own fate and the future destinies of my
