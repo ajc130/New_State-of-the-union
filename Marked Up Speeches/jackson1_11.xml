@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speech>
-<<<<<<< HEAD
-    <meta>
-=======
     <meta den="presbyterian" class="lower" married="widowed" kids="{xsd:0}" state="tennessee" party="democratic" age="{xsd:61}" profession="soldier/lawyer" term="1">
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
         <title>Address by Andrew Jackson</title>
         <date>1829</date>
     </meta>
@@ -102,11 +98,7 @@
             veneration to the lights that flow from the mind that founded and the mind that reformed
             our system. The same diffidence induces me to hope for instruction and aid from the
             coordinate branches of the Government, and for the indulgence and support of my
-<<<<<<< HEAD
-            fellow-citizens generally. <reference type="indirect" category="suplication">And a firm
-=======
             fellow-citizens generally. <reference type="direct" category="suplication">And a firm
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 reliance on the goodness of that <god style="poetic">Power</god> whose providence
                 mercifully protected our national infancy, and has since upheld our liberties in
                 various vicissitudes, encourages me to offer up my ardent supplications that <god

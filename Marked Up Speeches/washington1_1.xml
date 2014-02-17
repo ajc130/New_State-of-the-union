@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:washington1_1.xml
-    <meta den="espicopal" class="upper" married="yes" kids="{xsd:0}" state="virginia" party="unaffiliated" age="{xsd:57}" profession="soldier" term="1">
-=======
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
+
+
     <meta>
         <den>episcopal</den>
-        <class>upper class</class>
-        <kids></kids>
-        <married></married>
-        <state></state>
-        <party></party>
-        <age></age>
-        <profession></profession>
-    <term>1</term>
-<<<<<<< HEAD
-=======
->>>>>>> 12d66a7996f940d5e14794d202b060d217010396:Marked Up Speeches/washington1_1.xml
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
+        <class>upper</class>
+        <kids>0</kids>
+        <married>yes</married>
+        <state>Virginia</state>
+        <party>unaffiliated</party>
+        <age>57</age>
+        <profession>soldier</profession>
+        <term>1</term>
         <title>First Address by George Washington</title>
         <date>1789</date>
     </meta>
@@ -49,7 +41,7 @@
             by the motives which mislead me, and its consequences be judged by my country with some
             share of the partiality in which they originated.</p>
 
-<<<<<<< HEAD
+
         <p><reference type="indirect" category="supplication">Such being the impressions under which
                 I have, in obedience to the public summons, repaired to the present station, it
                 would be peculiarly improper to omit in this first official act my fervent
@@ -57,28 +49,10 @@
                 universe, who presides in the councils of nations, and whose providential aids can
                 supply every human defect,</reference>
             <reference type="indirect" category="supplication">that <god style="pronoun">His</god>
-=======
-<<<<<<< HEAD:washington1_1.xml
-        <p><reference type="direct" category="suplication">Such being the impressions under which
-=======
-        <p><reference type="indirect" category="supplication">Such being the impressions under which
->>>>>>> 12d66a7996f940d5e14794d202b060d217010396:Marked Up Speeches/washington1_1.xml
-                I have, in obedience to the public summons, repaired to the present station, it
-                would be peculiarly improper to omit in this first official act my fervent
-                supplications to that <god style="title">Almighty Being</god> who rules over the
-                universe, who presides in the councils of nations, and whose providential aids can
-                supply every human defect,</reference>
-<<<<<<< HEAD:washington1_1.xml
-            <reference type="direct" category="suplication">that <god style="pronoun">His</god>
-=======
-            <reference type="indirect" category="supplication">that <god style="pronoun">His</god>
->>>>>>> 12d66a7996f940d5e14794d202b060d217010396:Marked Up Speeches/washington1_1.xml
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 benediction may consecrate to the liberties and happiness of the people of the
                 United States a Government instituted by themselves for these essential purposes,
                 and may enable every instrument employed in its administration to execute with
                 success the functions allotted to his charge.</reference>
-<<<<<<< HEAD
             <reference type="indirect" category="praise">In tendering this homage to the <god
                     style="poetic">Great Author of every public and private good</god>, I assure
                 myself that it expresses your sentiments not less than my own, nor those of my
@@ -89,18 +63,6 @@
             <reference type="indirect" category="praise">Every step by which they have advanced to
                 the character of an independent nation seems to have been distinguished by some
                 token of <god style="poetic">providential agency</god>; and in the important
-=======
-            <reference type="direct" category="praise">In tendering this homage to the <god
-                    style="poetic">Great Author of every public and private good</god>, I assure
-                myself that it expresses your sentiments not less than my own, nor those of my
-                fellow-citizens at large less than either.</reference>
-            <reference type="direct" category="humility">No people can be bound to acknowledge and
-                adore the <god style="poetic">Invisible Hand</god> which conducts the affairs of men
-                more than those of the United States.</reference>
-            <reference type="direct" category="praise">Every step by which they have advanced to
-                the character of an independent nation seems to have been distinguished by some
-                token of <god style="title">providential agency</god>; and in the important
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 revolution just accomplished in the system of their united government the tranquil
                 deliberations and voluntary consent of so many distinct communities from which the
                 event has resulted can not be compared with the means by which most governments have
@@ -164,15 +126,7 @@
             may during my continuance in it be limited to such actual expenditures as the public
             good may be thought to require. </p>
         <p>
-<<<<<<< HEAD
             <reference type="indirect" category="supplication">Having thus imparted to you my
-=======
-<<<<<<< HEAD:washington1_1.xml
-            <reference typer="direct" category="supplication">Having thus imparted to you my
-=======
-            <reference type="indirect" category="supplication">Having thus imparted to you my
->>>>>>> 12d66a7996f940d5e14794d202b060d217010396:Marked Up Speeches/washington1_1.xml
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 sentiments as they have been awakened by the occasion which brings us together, I
                 shall take my present leave; but not without resorting once more to the benign <god
                     style="poetic">Parent of the Human Race</god> in humble supplication that, since
