@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <speech>
-<<<<<<< HEAD
-    <title>Address by John Adams</title>
-    <date>1797</date>
-=======
     <meta den="unitarian" class="upper" kids="{xsd:6}" married="married" state="massachusetts" party="federalist" age="{xsd:57}" profession="lawyer" term="1">
         <title>Address by John Adams</title>
     <date>1797</date></meta>
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
 
     <body>
         <p>When it was first perceived, in early times, that no middle course for America remained
@@ -15,17 +10,10 @@
             claims, men of reflection were less apprehensive of danger from the formidable power of
             fleets and armies they must determine to resist than from those contests and dissensions
             which would certainly arise concerning the forms of government to be instituted over the
-<<<<<<< HEAD
-            whole and over the parts of this extensive country. <reference type="indirect"
-                category="humility">Relying, however, on the purity of their intentions, the justice
-                of their cause, and the integrity and intelligence of the people, under an
-                overruling Providence which had so signally protected this country from the first,
-=======
             whole and over the parts of this extensive country. <reference type="direct"
                 category="humility">Relying, however, on the purity of their intentions, the justice
                 of their cause, and the integrity and intelligence of the people, under an
                 overruling <god style="title">Providence</god> which had so signally protected this country from the first,
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                 the representatives of this nation, then consisting of little more than half its
                 present number, not only broke to pieces the chains which were forging and the rod
                 of iron that was lifted up, but frankly cut asunder the ties which had bound them,
@@ -188,11 +176,7 @@
             mind is prepared without hesitation to lay myself under the most solemn obligations to
             support it to the utmost of my power. </p>
         <p>
-<<<<<<< HEAD
-            <reference type="indirect" category="blessing">And may that <god style="poetic">Being
-=======
             <reference type="direct" category="blessing">And may that <god style="poetic">Being
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
                     who is supreme over all</god>,<god style="poetic">the Patron of Order</god>,
                     <god style="poetic">the Fountain of Justice</god>, and <god style="poetic">the
                     Protector in all ages of the world of virtuous liberty</god>, continue <god
