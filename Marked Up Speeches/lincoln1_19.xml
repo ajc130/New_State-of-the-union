@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
+
 <speech><meta><title>Address by Abraham Lincoln</title> <date>1861</date></meta>
 
 <p>Fellow-Citizens of the United States:</p>
@@ -251,7 +251,7 @@ from every battlefield and patriot grave to every living heart and hearthstone a
 will yet swell the chorus of the Union, when again touched, as surely they will be, by the better angels of our nature.</p>
 
 </speech>
-=======
+
 <speech>
     <meta den="unaffiliated" class="lower" married="married" kids="{xsd:4}" state="illinois" party="republican" age="{xsd:52}" profession="lawyer" term="1">
         <title>Address by Abraham Lincoln</title>
@@ -542,4 +542,4 @@ will yet swell the chorus of the Union, when again touched, as surely they will 
         surely they will be, by the better angels of our nature.</p>
 
 </speech>
->>>>>>> 9cd8b5cf1ef7d1eff206ed61110f203703778e8e
+
