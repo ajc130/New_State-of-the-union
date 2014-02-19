@@ -1,4 +1,5 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
         <den>episcopal</den>
@@ -8,7 +9,8 @@
         <state>Virginia</state>
         <party>democratic-republican</party>
         <age>62</age>
-        <profession>lawyer farmer</profession>
+        <profession>lawyer</profession>
+        <profession>farmer</profession>
         <term>2</term>
         <title>Address by James Monroe</title>
         <date>1821</date>

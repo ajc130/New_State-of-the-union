@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-
-
     <meta>
         <den>episcopal</den>
         <class>upper</class>
@@ -13,8 +12,8 @@
         <age>57</age>
         <profession>soldier</profession>
         <term>1</term>
-        <title>First Address by George Washington</title>
-        <date>1789</date>
+        <title>Address by George Washington</title>
+        <date>1793</date>
     </meta>
     <body>
         <p>Fellow-Citizens of the Senate and of the House of Representatives: </p>
@@ -42,10 +41,10 @@
             share of the partiality in which they originated.</p>
 
 
-        <p><reference type="indirect" category="supplication">Such being the impressions under which
+        <p><reference type="direct" category="supplication">Such being the impressions under which
                 I have, in obedience to the public summons, repaired to the present station, it
                 would be peculiarly improper to omit in this first official act my fervent
-                supplications to that <god style="poetic">Almighty Being</god> who rules over the
+                supplications to that <god style="title">Almighty Being</god> who rules over the
                 universe, who presides in the councils of nations, and whose providential aids can
                 supply every human defect,</reference>
             <reference type="indirect" category="supplication">that <god style="pronoun">His</god>
@@ -54,7 +53,7 @@
                 and may enable every instrument employed in its administration to execute with
                 success the functions allotted to his charge.</reference>
             <reference type="indirect" category="praise">In tendering this homage to the <god
-                    style="poetic">Great Author of every public and private good</god>, I assure
+                    style="title">Great Author of every public and private good</god>, I assure
                 myself that it expresses your sentiments not less than my own, nor those of my
                 fellow-citizens at large less than either.</reference>
             <reference type="indirect" category="humility">No people can be bound to acknowledge and
@@ -131,7 +130,7 @@
                 shall take my present leave; but not without resorting once more to the benign <god
                     style="poetic">Parent of the Human Race</god> in humble supplication that, since
                     <god style="pronoun">He</god> has been pleased to favor the American people with
-                opportunities for deliberating in perfect tranquillity, and dispositions for
+                opportunities for deliberating in perfect tranquillity,</reference><reference type="indirect" category="supplication"> and dispositions for
                 deciding with unparalleled unanimity on a form of government for the security of
                 their union and the advancement of their happiness, so <god style="pronoun"
                     >His</god> divine blessing may be equally conspicuous in the enlarged views, the

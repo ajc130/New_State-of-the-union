@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="unitarian" class="upper" married="married" kids="{xsd:5}" state="massachusetts" party="democratic-republican" age="{xsd:57}" profession="lawyer" term="1">
+    <meta>
+        
+        
+        <den>unitarian</den>
+        <class>upper</class>
+        <kids>5</kids>
+        <married>yes</married>
+        <state>Virginia</state>
+        <party>democratic-republican</party>
+        <age>57</age>
+        <profession>lawyer</profession>
+        
+        <term>1</term>
         <title>Address by John Quincy Adams</title>
         <date>1825</date>
     </meta>
@@ -222,7 +235,7 @@
             upright and pure, a heart devoted to the welfare of our country, and the unceasing
             application of all the faculties allotted to me to her service are all the pledges that
             I can give for the faithful performance of the arduous duties I am to undertake.
-                <reference type="direct" category="suplication">To the guidance of the legislative
+                <reference type="direct" category="supplication">To the guidance of the legislative
                 councils, to the assistance of the executive and subordinate departments, to the
                 friendly cooperation of the respective State governments, to the candid and liberal
                 support of the people so far as it may be deserved by honest industry and zeal, I

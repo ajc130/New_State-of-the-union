@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="presbyterian" class="lower" married="widowed" kids="{xsd:0}" state="tennessee" party="democratic" age="{xsd:61}" profession="soldier/lawyer" term="1">
+    <meta>
+        <den>presbyterian</den>
+        <class>lower</class>
+        <kids>0</kids>
+        <married>yes</married>
+        <state>Tennessee</state>
+        <party>democratic</party>
+        <age>61</age>
+        <profession>soldier</profession>
+        <profession>lawyer</profession>
+        <term>1</term>
         <title>Address by Andrew Jackson</title>
         <date>1829</date>
     </meta>

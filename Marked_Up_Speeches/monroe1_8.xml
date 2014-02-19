@@ -1,4 +1,5 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
         <den>episcopal</den>
@@ -8,7 +9,8 @@
         <state>Virginia</state>
         <party>democratic-republican</party>
         <age>58</age>
-        <profession>lawyer farmer</profession>
+        <profession>lawyer</profession>
+        <profession>farmer</profession>
         <term>1</term>
         <title>Address by James Monroe</title>
         <date>1817</date>
@@ -254,9 +256,9 @@
             wishes that he may long enjoy in his retirement the affections of a grateful country,
             the best reward of exalted talents and the most faithful and meritorious service.
             Relying on the aid to be derived from the other departments of the Government,
-                <reference type="direct" category="praise">I enter on the trust to which I have been
+                <reference type="direct" category="humility">I enter on the trust to which I have been
                 called by the suffrages of my fellow-citizens with my fervent prayers to the <god
-                    style="poetic">Almighty</god> that <god style="pronoun">He</god> will be
+                    style="title">Almighty</god></reference><reference type="direct" category="praise"> that <god style="pronoun">He</god> will be
                 graciously pleased to continue to us that protection which <god style="pronoun"
                     >He</god> has already so conspicuously displayed in our favor.</reference></p>
     </body>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
 
- <speech>
+
+ <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<speech>
      <meta><den>deist</den>
          <class>upper</class>
          <kids>6</kids>
@@ -10,7 +11,8 @@
          <state>Virginia</state>
          <party>democratic-republican</party>
          <age>57</age>
-         <profession>lawyer farmer</profession>
+         <profession>lawyer</profession>
+         <profession>farmer</profession>
          <term>1</term>
          
      <title>Address by Thomas Jefferson</title>
@@ -82,9 +84,8 @@
                 birth, but from our actions and their sense of them; enlightened by a benign
                 religion, professed, indeed, and practiced in various forms, yet all of them
                 inculcating honesty, truth, temperance, gratitude, and the love of man;<reference
-                    type="direct" category="praise">acknowledging and adoring an overruling<god
-                        style="title">Providence</god>, which by all<god style="pronoun">its</god>dispensations proves that
-                 <god style="pronoun">it</god>delights in the happiness of man here and his greater happiness
+                    type="direct" category="praise">acknowledging and adoring an overruling <god style="title">Providence</god>, which by all<god style="pronoun">Its</god>dispensations proves that
+                 <god style="pronoun">It</god>delights in the happiness of man here and his greater happiness
                     hereafter</reference>—with all these blessings, what more is necessary to make
                 us a happy and a prosperous people? Still one thing more, fellow-citizens—a wise and
                 frugal Government, which shall restrain men from injuring one another, shall leave

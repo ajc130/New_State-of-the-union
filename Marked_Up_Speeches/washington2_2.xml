@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
+        
+        <den>episcopal</den>
+        <class>upper</class>
+        <kids>0</kids>
+        <married>yes</married>
+        <state>Virginia</state>
+        <party>unaffiliated</party>
+        <age>61</age>
+        <profession>soldier</profession>
+        <term>2</term>
         <title>Address by George Washington</title>
         <date>1793</date>
     </meta>

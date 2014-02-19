@@ -1,4 +1,6 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
         <den>episcopal deist</den>
@@ -8,7 +10,8 @@
         <state>Virginia</state>
         <party>democratic-republican</party>
         <age>61</age>
-        <profession>lawyer farmer</profession>
+        <profession>lawyer</profession>
+        <profession>farmer</profession>
         <term>2</term>
         <title>Address by James Madison</title>
         <date>1813</date>

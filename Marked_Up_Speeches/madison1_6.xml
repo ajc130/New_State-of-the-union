@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
 
- <speech>
-     <meta><den>episcopal deist</den>
-         <class>upper</class>
-         <kids>0</kids>
-         <married>yes</married>
-         <state>Virginia</state>
-         <party>democratic-republican</party>
-         <age>57</age>
-         <profession>lawyer farmer</profession>
-         <term>1</term>
-         
-     <title>Address by James Madison,</title>
-     <date>1809</date></meta>
-     <body><p>Unwilling to depart from examples of the most revered authority, I avail myself of the
+
+ <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<speech>
+    <meta><den>episcopal deist</den>
+        <class>upper</class>
+        <kids>0</kids>
+        <married>yes</married>
+        <state>Virginia</state>
+        <party>democratic-republican</party>
+        <age>57</age>
+        <profession>lawyer</profession>
+        <profession>farmer</profession>
+        <term>1</term>
+        <title>Address by James Madison,</title>
+        <date>1809</date></meta>
+    <body>
+        <p>Unwilling to depart from examples of the most revered authority, I avail myself of the
             occasion now presented to express the profound impression made on me by the call of my
             country to the station to the duties of which I am about to pledge myself by the most
             solemn of sanctions. So distinguished a mark of confidence, proceeding from the
@@ -24,7 +26,7 @@
             awful sense of the trust to be assumed. Under the various circumstances which give
             peculiar solemnity to the existing period, I feel that both the honor and the
             responsibility allotted to me are inexpressibly enhanced.</p>
-     <p>The present situation of the world is indeed without a parallel, and that of our own
+        <p>The present situation of the world is indeed without a parallel, and that of our own
             country full of difficulties. The pressure of these, too, is the more severely felt
             because they have fallen upon us at a moment when the national prosperity being at a
             height not before attained, the contrast resulting from the change has been rendered the
@@ -36,7 +38,7 @@
             arts, in the increase of the public revenue and the use made of it in reducing the
             public debt, and in the valuable works and establishments everywhere multiplying over
             the face of our land.</p>
-     <p>It is a precious reflection that the transition from this prosperous condition of our
+        <p>It is a precious reflection that the transition from this prosperous condition of our
             country to the scene which has for some time been distressing us is not chargeable on
             any unwarrantable views, nor, as I trust, on any involuntary errors in the public
             councils. Indulging no passions which trespass on the rights or the repose of other
@@ -45,7 +47,7 @@
             their neutral obligations with the most scrupulous impartiality. If there be candor in
             the world, the truth of these assertions will not be questioned; posterity at least will
             do justice to them.</p>
-     <p>This unexceptionable course could not avail against the injustice and violence of the
+        <p>This unexceptionable course could not avail against the injustice and violence of the
             belligerent powers. In their rage against each other, or impelled by more direct
             motives, principles of retaliation have been introduced equally contrary to universal
             reason and acknowledged law. How long their arbitrary edicts will be continued in spite
@@ -58,7 +60,7 @@
             this deep conviction it is because I find some support in a consciousness of the
             purposes and a confidence in the principles which I bring with me into this arduous
             service.</p>
-     <p>To cherish peace and friendly intercourse with all nations having correspondent
+        <p>To cherish peace and friendly intercourse with all nations having correspondent
             dispositions; to maintain sincere neutrality toward belligerent nations; to prefer in
             all cases amicable discussion and reasonable accommodation of differences to a decision
             of them by an appeal to arms; to exclude foreign intrigues and foreign partialities, so
@@ -85,21 +87,22 @@
             improvements of which the human mind and manners are susceptible in a civilized state—as
             far as sentiments and intentions such as these can aid the fulfillment of my duty, they
             will be a resource which can not fail me.</p>
-     <p>It is my good fortune, moreover, to have the path in which I am to tread lighted by
+        <p>It is my good fortune, moreover, to have the path in which I am to tread lighted by
             examples of illustrious services successfully rendered in the most trying difficulties
             by those who have marched before me. Of those of my immediate predecessor it might least
             become me here to speak. I may, however, be pardoned for not suppressing the sympathy
             with which my heart is full in the rich reward he enjoys in the benedictions of a
             beloved country, gratefully bestowed or exalted talents zealously devoted through a long
             career to the advancement of its highest interest and happiness.</p>
-     <p>But the source to which I look or the aids which alone can supply my deficiencies is in
+        <p>But the source to which I look or the aids which alone can supply my deficiencies is in
             the well-tried intelligence and virtue of my fellow-citizens, and in the counsels of
             those representing them in the other departments associated in the care of the national
-            interests. In these my confidence will under every difficulty be best placed,<reference category="praise" type="direct">next to
-            that which we have all been encouraged to feel in the guardianship and guidance of that
-         <god style="title">Almighty Being</god>whose power regulates the destiny of nations, whose blessings have been
-            so conspicuously dispensed to this rising Republic, and to whom we are bound to address
-            our devout gratitude for the past, as well as our fervent supplications and best hopes
-            for the future.</reference></p></body>
- </speech>
-
+            interests. In these my confidence will under every difficulty be best placed,<reference
+                category="praise" type="direct">next to that which we have all been encouraged to
+                feel in the guardianship and guidance of that <god style="title">Almighty
+                    Being</god>whose power regulates the destiny of nations, whose blessings have
+                been so conspicuously dispensed to this rising Republic, and to whom we are bound to
+                address our devout gratitude for the past, as well as our fervent supplications and
+                best hopes for the future.</reference></p>
+    </body>
+</speech>

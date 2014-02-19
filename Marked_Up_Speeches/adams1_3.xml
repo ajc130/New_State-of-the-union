@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="unitarian" class="upper" kids="{xsd:6}" married="married" state="massachusetts" party="federalist" age="{xsd:57}" profession="lawyer" term="1">
+    <meta>
+        <den>unitarian</den>
+        <class>upper</class>
+        <kids>5</kids>
+        <married>yes</married>
+        <state>Massachusetts</state>
+        <party>federalist</party>
+        <age>57</age>
+        <profession>lawyer</profession>
+        <term>1</term>
         <title>Address by John Adams</title>
-    <date>1797</date></meta>
+        <date>1797</date>
+    </meta>
 
     <body>
         <p>When it was first perceived, in early times, that no middle course for America remained
@@ -13,11 +24,11 @@
             whole and over the parts of this extensive country. <reference type="direct"
                 category="humility">Relying, however, on the purity of their intentions, the justice
                 of their cause, and the integrity and intelligence of the people, under an
-                overruling <god style="title">Providence</god> which had so signally protected this country from the first,
-                the representatives of this nation, then consisting of little more than half its
-                present number, not only broke to pieces the chains which were forging and the rod
-                of iron that was lifted up, but frankly cut asunder the ties which had bound them,
-                and launched into an ocean of uncertainty.</reference>
+                overruling <god style="title">Providence</god> which had so signally protected this
+                country from the first, the representatives of this nation, then consisting of
+                little more than half its present number, not only broke to pieces the chains which
+                were forging and the rod of iron that was lifted up, but frankly cut asunder the
+                ties which had bound them, and launched into an ocean of uncertainty.</reference>
         </p>
         <p>The zeal and ardor of the people during the Revolutionary war, supplying the place of
             government, commanded a degree of order sufficient at least for the temporary
@@ -176,9 +187,9 @@
             mind is prepared without hesitation to lay myself under the most solemn obligations to
             support it to the utmost of my power. </p>
         <p>
-            <reference type="direct" category="blessing">And may that <god style="poetic">Being
-                    who is supreme over all</god>,<god style="poetic">the Patron of Order</god>,
-                    <god style="poetic">the Fountain of Justice</god>, and <god style="poetic">the
+            <reference type="direct" category="supplication">And may that <god style="poetic">Being who
+                    is supreme over all</god>,<god style="title">the Patron of Order</god>, <god
+                    style="title">the Fountain of Justice</god>, and <god style="poetic">the
                     Protector in all ages of the world of virtuous liberty</god>, continue <god
                     style="pronoun">His</god> blessing upon this nation and its Government and give
                 it all possible success and duration consistent with the ends of <god

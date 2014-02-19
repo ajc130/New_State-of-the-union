@@ -1,4 +1,5 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
         <den>presbyterian</den>
@@ -8,7 +9,8 @@
         <state>Pennsylvania</state>
         <party>democratic</party>
         <age>65</age>
-        <profession>lawyer diplomat</profession>
+        <profession>lawyer</profession>
+        <profession>diplomat</profession>
         <term>1</term>
         <title>Address by James Buchanan</title>
         <date>1857</date>

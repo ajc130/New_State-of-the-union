@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="presbyterian" class="lower" married="widowed" kids="{xsd:0}" state="tennessee" party="democratic" age="{xsd:61}" profession="soldier/lawyer" term="{xsd:2}" >
+    <meta>
+        
+        <den>presbyterian</den>
+        <class>lower</class>
+        <kids>0</kids>
+        <married>widowed</married>
+        <state>Tennessee</state>
+        <party>democratic</party>
+        <age>61</age>
+        <profession>soldier</profession>
+        <profession>farmer</profession>
+        <term>2</term>
         <title>Address by Andrew Jackson</title>
         <date>1833</date>
+        
     </meta>
 
     <body>
@@ -91,7 +105,7 @@
             preservation of a greater good, to recommend our invaluable Government and Union to the
             confidence and affections of the American people. </p>
         <p>
-            <reference type="direct" category="suplication">Finally, it is my most fervent prayer
+            <reference type="direct" category="supplication">Finally, it is my most fervent prayer
                 to that <god style="title">Almighty Being</god> before whom I now stand, and who
                 has kept us in <god style="pronoun">His</god> hands from the infancy of our Republic
                 to the present day, that <god style="pronoun">He</god> will so overrule all my
