@@ -2,17 +2,18 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>episcopal</den>
+        <name>Franklin Pierce</name>
+        <den>Episcopal</den>
         <class>middle</class>
         <kids>3</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>new hampshire</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>48</age>
-        <profession>lawyer</profession>
+        <profession>Lawyer</profession>
         <term>1</term>
         <title>Address by Franklin Pierce</title>
-        <date>1853</date>
+        <date>March 4, 1853</date>
     </meta>
     <body>
         <p>My Countrymen:</p>

@@ -1,14 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>quaker</den>
+        <name>Herbert Hoover</name>
+        <den>Quaker</den>
         <class>upper</class>
         <kids>2</kids>
-        <married>yes</married>
-        <state>california</state>
-        <party>republican</party>
+        <married>married</married>
+        <state>California</state>
+        <party>Republican</party>
         <age>54</age>
-        <profession>engineer</profession>
+        <profession>Engineer</profession>
         <term>1</term>
         <title>Address by Herbert Hoover</title>
         <date>1929</date>

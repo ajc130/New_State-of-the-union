@@ -2,18 +2,19 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>episcopal</den>
+        <name>James Monroe</name>
+        <den>Episcopal</den>
         <class>upper</class>
         <kids>3</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>democratic-republican</party>
+        <party>Democratic-Republican</party>
         <age>62</age>
-        <profession>lawyer</profession>
-        <profession>farmer</profession>
+        <profession>Lawyer</profession>
+        <profession>Farmer</profession>
         <term>2</term>
         <title>Address by James Monroe</title>
-        <date>1821</date>
+        <date>March 4, 1821</date>
     </meta>
     <body>
         <p>I shall not attempt to describe the grateful emotions which the new and very

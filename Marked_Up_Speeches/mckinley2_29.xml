@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="methodist" class="middle" married="married" kids="{xsd:2}" state="ohio" age="{xsd:54}" profession="lawyer" term="2">
+    <meta>
+        <name>William McKinley</name>
+        <den>Methodist</den>
+        <class>middle</class>
+        <kids>2</kids>
+        <married>married</married>
+        <state>Ohio</state>
+        <party>Republican</party>
+        <age>58</age>
+        <profession>Lawyer</profession>
+        <term>2</term>
         <title>Address by William McKinley</title>
-        <date>1901</date>
+        <date>March 4, 1901</date>
     </meta>
 
     <body>
@@ -48,7 +60,7 @@
             fervent prayer that if differences arise between us and other powers they may be settled
             by peaceful arbitration and that hereafter we may be spared the horrors of war.</p>
 
-        <p><reference type="direct" category="suplication">Intrusted by the people for a second time
+        <p><reference type="direct" category="supplication">Intrusted by the people for a second time
                 with the office of President, I enter upon its administration appreciating the great
                 responsibilities which attach to this renewed honor and commission, promising
                 unreserved devotion on my part to their faithful discharge and reverently invoking

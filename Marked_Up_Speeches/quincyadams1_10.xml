@@ -2,20 +2,18 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        
-        
-        <den>unitarian</den>
+        <name>John Quincy Adams</name>
+        <den>Unitarian</den>
         <class>upper</class>
         <kids>5</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>democratic-republican</party>
+        <party>Democratic-Republican</party>
         <age>57</age>
-        <profession>lawyer</profession>
-        
+        <profession>Lawyer</profession>
         <term>1</term>
         <title>Address by John Quincy Adams</title>
-        <date>1825</date>
+        <date>March 4, 1825</date>
     </meta>
 
     <body>

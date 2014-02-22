@@ -3,16 +3,20 @@
 
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-      <meta><den>episcopal</den>
+      <meta>
+            <name>William H. Harrison</name>
+            <den>Episcopal</den>
             <class>upper</class>
             <kids>11</kids>
-            <married>yes</married>
+            <married>married</married>
             <state>Ohio</state>
-            <party>whig</party>
+            <party>Whig</party>
             <age>68</age>
-            <profession>soldier</profession>
+            <profession>Soldier</profession>
             <term>1</term>
-            <title>Address by William H. Harrison,</title><date>1841</date></meta>
+            <title>Address by William H. Harrison</title>
+            <date>March 4, 1841</date>
+      </meta>
 
       <body>
             <p>Called from a retirement which I had supposed was to continue for the residue of my

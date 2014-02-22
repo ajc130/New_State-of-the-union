@@ -3,17 +3,18 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>episcopal</den>
+        <name>George Washington</name>
+        <den>Episcopal</den>
         <class>upper</class>
         <kids>0</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>unaffiliated</party>
+        <party>Unaffiliated</party>
         <age>57</age>
-        <profession>soldier</profession>
+        <profession>Soldier</profession>
         <term>1</term>
         <title>Address by George Washington</title>
-        <date>1793</date>
+        <date>April 30, 1793</date>
     </meta>
     <body>
         <p>Fellow-Citizens of the Senate and of the House of Representatives: </p>

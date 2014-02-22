@@ -1,14 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>baptist</den>
+        <name>Warren G. Harding</name>
+        <den>Baptist</den>
         <class>middle</class>
         <kids>0</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Ohio</state>
-        <party>republican</party>
+        <party>Republican</party>
         <age>55</age>
-        <profession>newspaper publisher</profession>
+        <profession>Newspaper Publisher</profession>
         <term>1</term>
         <title>Address by Warren G. Harding</title>
         <date>1921</date>
@@ -27,7 +29,7 @@
             emotions which no one may know until he senses the great weight of responsibility for
             himself, I must utter my belief in the divine inspiration of the founding fathers.
                 <reference type="direct" category="humility">Surely there must have been <god
-                    style="name">God’s</god> intent in the making of this new-world
+                    style="name">God’s intent</god>  in the making of this new-world
                 Republic.</reference> Ours is an organic law which had but one ambiguity, and we saw
             that effaced in a baptism of sacrifice and blood, with union maintained, the Nation
             supreme, and its concord inspiring. We have seen the world rivet its hopeful gaze on the
@@ -86,7 +88,7 @@
         <p><reference type="direct" category="humility">America is ready to encourage, eager to
                 initiate, anxious to participate in any seemly program likely to lessen the
                 probability of war, and promote that brotherhood of mankind which must be <god
-                    style="name">God’s</god> highest conception of human relationship.
+                    style="name">God’s highest conception</god> of human relationship.
             </reference>Because we cherish ideals of justice and peace, because we appraise
             international comity and helpful relationship no less highly than any people of the
             world, we aspire to a high place in the moral leadership of civilization, and we hold a
@@ -256,7 +258,7 @@
         <p>One cannot stand in this presence and be unmindful of the tremendous responsibility. The
             world upheaval has added heavily to our tasks. <reference type="direct"
                 category="humility">But with the realization comes the surge of high resolve, and
-                there is reassurance in belief in the <god style="name">God-given</god> destiny of
+                there is reassurance in belief in the <god style="name">God-given destiny</god> of
                 our Republic.</reference> If I felt that there is to be sole responsibility in the
             Executive for the America of tomorrow I should shrink from the burden. <reference
                 type="direct" category="humility">But here are a hundred millions, with common
@@ -265,7 +267,7 @@
             co-operation.</p>
         <p><reference type="direct" category="supplication">I accept my part with single-mindedness
                 of purpose and humility of spirit, and implore the favor and guidance of <god
-                    style="name">God</god> in <god style="pronoun">His</god> Heaven.</reference>
+                    style="name">God</god> in <god style="pronoun">His Heaven</god>.</reference>
             With these I am unafraid, and confidently face the future.</p>
         <p><reference type="direct" category="humility">I have taken the solemn oath of office on
                 that passage of Holy Writ wherein it is asked: “What doth the <god style="name"

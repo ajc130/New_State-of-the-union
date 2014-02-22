@@ -1,18 +1,20 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>presbyterian</den>
+        <name>Grover Cleveland</name>
+        <den>Presbyterian</den>
         <class>middle</class>
         <kids>6</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>New York</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>55</age>
-        <profession>lawyer</profession>
-        <profession>sheriff</profession>
+        <profession>Lawyer</profession>
+        <profession>Sheriff</profession>
         <term>2</term>
         <title>Address by Grover Cleveland</title>
-        <date>1893</date>
+        <date>March 4, 1893</date>
     </meta>
     <body>
         <p>My Fellow-Citizens:</p>
@@ -173,9 +175,9 @@
             deserve their forbearance and approval. <reference type="indirect" category="humility"
                 >Above all, I know there is a <god style="poetic">Supreme Being</god> who rules the
                 affairs of men and whose goodness and mercy have always followed the American
-                people</reference>, and <reference type="indirect" category="humility"> know <god
-                    style="pronoun">He</god> will not turn from us now if we humbly and reverently
-                seek</reference><reference type="indirect" category="praise">
-                <god style="pronoun">His</god> powerful aid.</reference></p>
+                people,</reference><reference type="indirect" category="humility">and know <god
+                    style="pronoun">He</god> will not turn from us now</reference><reference
+                type="indirect" category="praise">if we humbly and reverently seek <god
+                    style="pronoun">His</god> powerful aid.</reference></p>
     </body>
 </speech>

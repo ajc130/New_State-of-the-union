@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
-
- <speech>
-        <meta><den>unaffiliated</den>
+ <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<speech>
+        <meta>
+               <name>Rutherford B. Hayes</name>
+               <den>Unaffiliated</den>
                <class>lower</class>
                <kids>8</kids>
-               <married>yes</married>
+               <married>married</married>
                <state>Ohio</state>
-               <party>republican</party>
+               <party>Republican</party>
                <age>54</age>
-               <profession>lawyer</profession>
+               <profession>Lawyer</profession>
                <term>1</term>
                
      <title>Address by Rutherford B. Hayes,</title>
-     <date>1877</date></meta>
+     <date>March 5, 1877</date></meta>
      <body>
          <p>Fellow-Citizens:</p>
          <p>We have assembled to repeat the public ceremonial, begun by Washington, observed by
@@ -202,13 +203,13 @@
                 the midst of the struggle of opposing parties for power, hushing its party tumults
                 to yield the issue of the contest to adjustment according to the forms of law.</p>
          <p><reference category="supplication" type="indirect">Looking for the guidance of that<god style="poetic">Divine Hand</god>by which the destinies of nations and
-                individuals are shaped</reference>, I call upon you, Senators, Representatives, judges,
+                individuals are shaped, I call upon you, Senators, Representatives, judges,
                 fellow-citizens, here and everywhere, to unite with me in an earnest effort to
                 secure to our country the blessings, not only of material prosperity, but of
                 justice, peace, and union—a union depending not upon the constraint of force, but
                 upon the loving devotion of a free people; “and that all things may be so ordered
                 and settled upon the best and surest foundations that peace and happiness, truth and
-                justice, religion and piety, may be established among us for all generations.”</p>
+                justice, religion and piety, may be established among us for all generations.”</reference></p>
      </body>
  </speech>
 

@@ -3,19 +3,19 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        
-        <den>presbyterian</den>
+        <name>Andrew Jackson</name>
+        <den>Presbyterian</den>
         <class>lower</class>
         <kids>0</kids>
         <married>widowed</married>
         <state>Tennessee</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>61</age>
-        <profession>soldier</profession>
-        <profession>farmer</profession>
+        <profession>Soldier</profession>
+        <profession>Farmer</profession>
         <term>2</term>
         <title>Address by Andrew Jackson</title>
-        <date>1833</date>
+        <date>March 4, 1833</date>
         
     </meta>
 

@@ -2,18 +2,19 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>presbyterian</den>
+        <name>James Buchanan</name>
+        <den>Presbyterian</den>
         <class>middle</class>
         <kids>0</kids>
-        <married>no</married>
+        <married>single</married>
         <state>Pennsylvania</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>65</age>
-        <profession>lawyer</profession>
-        <profession>diplomat</profession>
+        <profession>Lawyer</profession>
+        <profession>Diplomat</profession>
         <term>1</term>
         <title>Address by James Buchanan</title>
-        <date>1857</date>
+        <date>March 4, 1857</date>
     </meta>
     <body>
         <p>Fellow-Citizens:</p>

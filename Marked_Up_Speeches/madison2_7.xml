@@ -3,18 +3,19 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>episcopal deist</den>
+        <name>James Madison</name>
+        <den>Episcopal Deist</den>
         <class>upper</class>
         <kids>0</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>democratic-republican</party>
+        <party>Democratic-Republican</party>
         <age>61</age>
-        <profession>lawyer</profession>
-        <profession>farmer</profession>
+        <profession>Lawyer</profession>
+        <profession>Farmer</profession>
         <term>2</term>
         <title>Address by James Madison</title>
-        <date>1813</date>
+        <date>March 4, 1813</date>
     </meta>
     <body>
         <p>About to add the solemnity of an oath to the obligations imposed by a second call to the

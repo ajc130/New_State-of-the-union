@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="methodist" class="lower" married="married" kids="{xsd:4}" state="ohio" party="republican" age="{xsd:46}" profession="soldier" term="1">
+    <meta>
+        <name>Ulysses S. Grant</name>
+        <den>Methodist</den>
+        <class>lower</class>
+        <kids>4</kids>
+        <married>married</married>
+        <state>Ohio</state>
+        <party>Republican</party>
+        <age>46</age>
+        <profession>Soldier</profession>
+        <term>1</term>
         <title>Address by Ulysses S. Grant</title>
-        <date>1869</date>
+        <date>March 1, 1869</date>
     </meta>
 
     <body>
@@ -95,7 +107,7 @@
             hope and express the desire that it may be by the ratification of the fifteenth article
             of amendment to the Constitution. </p>
         <p>
-            <reference type="direct" category="suplication">In conclusion I ask patient forbearance
+            <reference type="direct" category="supplication">In conclusion I ask patient forbearance
                 one toward another throughout the land, and a determined effort on the part of every
                 citizen to do his share toward cementing a happy union; and I ask the prayers of the
                 nation to <god style="title">Almighty God</god> in behalf of this

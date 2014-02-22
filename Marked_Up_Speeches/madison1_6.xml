@@ -4,18 +4,20 @@
 
  <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta><den>episcopal deist</den>
+    <meta>
+        <name>James Madison</name>
+        <den>Episcopal Deist</den>
         <class>upper</class>
         <kids>0</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>democratic-republican</party>
+        <party>Democratic-Republican</party>
         <age>57</age>
-        <profession>lawyer</profession>
-        <profession>farmer</profession>
+        <profession>Lawyer</profession>
+        <profession>Farmer</profession>
         <term>1</term>
-        <title>Address by James Madison,</title>
-        <date>1809</date></meta>
+        <title>Address by James Madison</title>
+        <date>March 4, 1809</date></meta>
     <body>
         <p>Unwilling to depart from examples of the most revered authority, I avail myself of the
             occasion now presented to express the profound impression made on me by the call of my

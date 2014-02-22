@@ -1,17 +1,19 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>presbyterian</den>
+        <name>Benjamin Harrison</name>
+        <den>Presbyterian</den>
         <class>upper</class>
         <kids>4</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Indiana</state>
-        <party>republican</party>
+        <party>Republican</party>
         <age>55</age>
-        <profession>lawyer</profession>
+        <profession>Lawyer</profession>
         <term>1</term>
         <title>Address by Benjamin Harrison</title>
-        <date>1889</date>
+        <date>March 4, 1889</date>
     </meta>
     <body>
         <p>Fellow-Citizens:</p>

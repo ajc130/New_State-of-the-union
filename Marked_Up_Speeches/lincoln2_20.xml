@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="unaffiliated" class="lower" married="married" kids="{xsd:4}" state="illinois" party="republican" age="{xsd:52}" profession="lawyer" term="2">
+    <meta>
+        <name>Abraham Lincoln</name>
+        <den>Unaffiliated</den>
+        <class>lower</class>
+        <kids>4</kids>
+        <married>married</married>
+        <state>Illinois</state>
+        <party>Republican</party>
+        <age>56</age>
+        <profession>Lawyer</profession>
+        <term>1</term>
         <title>Address by Abraham Lincoln</title>
-        <date>1865</date>
+        <date>March 4, 1865</date>
     </meta>
 
     <body>
@@ -49,18 +62,18 @@
         <p><reference type="direct" category="testimony">If we shall suppose that American slavery
                 is one of those offenses which, in the providence of <god style="name">God</god>,
                 must needs come, but which, having continued through <god style="pronoun">His</god>
-                appointed time, <god style="pronoun">He</god> now wills to remove, and that He gives
-                to both North and South this terrible war as the woe due to those by whom the
-                offense came, shall we discern therein any departure from those divine attributes
-                which the believers in a living <god style="name">God</god> always ascribe to <god
-                    style="pronoun">Him</god>?</reference> Fondly do we hope, fervently do we pray,
-            that this mighty scourge of war may speedily pass away. <reference type="direct"
-                category="testimony">Yet, if <god style="name">God</god> wills that it continue
-                until all the wealth piled by the bondsman’s two hundred and fifty years of
-                unrequited toil shall be sunk, and until every drop of blood drawn with the lash
-                shall be paid by another drawn with the sword, as was said three thousand years ago,
-                so still it must be said “the judgments of the <god style="title">Lord</god> are
-                true and righteous altogether.”</reference></p>
+                appointed time, <god style="pronoun">He</god> now wills to remove, and that <god
+                    style="pronoun">He</god> gives to both North and South this terrible war as the
+                woe due to those by whom the offense came, shall we discern therein any departure
+                from those divine attributes which the believers in a living <god style="name"
+                    >God</god> always ascribe to <god style="pronoun">Him</god>?</reference> Fondly
+            do we hope, fervently do we pray, that this mighty scourge of war may speedily pass
+            away. <reference type="direct" category="testimony">Yet, if <god style="name">God</god>
+                wills that it continue until all the wealth piled by the bondsman’s two hundred and
+                fifty years of unrequited toil shall be sunk, and until every drop of blood drawn
+                with the lash shall be paid by another drawn with the sword, as was said three
+                thousand years ago, so still it must be said “the judgments of the <god
+                    style="title">Lord</god> are true and righteous altogether.”</reference></p>
 
         <p>
             <reference type="direct" category="humility">With malice toward none, with charity for

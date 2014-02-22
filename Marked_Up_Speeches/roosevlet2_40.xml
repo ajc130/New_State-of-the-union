@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
-
- <speech>
-     <meta><den>episcopal</den>
+ <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<speech>
+     <meta>
+         <name>Franklin D. Roosevelt</name>
+         <den>Episcopal</den>
          <class>upper</class>
          <kids>6</kids>
-         <married>yes</married>
+         <married>married</married>
          <state>New York</state>
-         <party>democratic</party>
-         <age>55</age>
-         <profession>lawyer</profession>
-         <term>2</term>
-         
-     <title>Address by Franklin D. Roosevelt,</title>
-     <date>1945</date></meta>
+         <party>Democratic</party>
+         <age>63</age>
+         <profession>Lawyer</profession>
+         <term>3</term>
+         <title>Address by Franklin D. Roosevelt</title>
+         <date>1945</date>
+     </meta>
      <body>
          <p>Mr. Chief Justice, Mr. Vice President, my friends, you will understand and, I
                 believe, agree with my wish that the form of this inauguration be simple and its

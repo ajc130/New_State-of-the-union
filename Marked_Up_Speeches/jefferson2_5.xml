@@ -4,18 +4,19 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
        <meta>
-              <den>deist</den>
+              <name>Thomas Jefferson</name>
+              <den>Deist</den>
               <class>upper</class>
               <kids>6</kids>
               <married>widowed</married>
               <state>Virginia</state>
-              <party>democratic-republican</party>
+              <party>Democratic-Republican</party>
               <age>61</age>
-              <profession>lawyer</profession>
-              <profession>farmer</profession>
+              <profession>Lawyer</profession>
+              <profession>Farmer</profession>
               <term>2</term>
-              <title>Address by Thomas Jefferson,</title>
-              <date>1805</date>
+              <title>Address by Thomas Jefferson</title>
+              <date>March 4, 1805</date>
        </meta>
        <body>
               <p>Proceeding, fellow-citizens, to that qualification which the Constitution requires

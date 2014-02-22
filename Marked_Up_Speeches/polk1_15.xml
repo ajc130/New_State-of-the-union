@@ -4,17 +4,20 @@
 
  <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-       <meta><den>presbyterian</den>
+       <meta>
+              <name>James K. Polk</name>
+              <den>Presbyterian</den>
               <class>middle</class>
               <kids>0</kids>
-              <married>yes</married>
+              <married>married</married>
               <state>Tennessee</state>
-              <party>democratic</party>
+              <party>Democratic</party>
               <age>49</age>
-              <profession>lawyer</profession>
+              <profession>Lawyer</profession>
               <term>1</term>
               <title>Address by James K. Polk,</title>
-              <date>1845</date></meta>
+              <date>March 4, 1845</date>
+       </meta>
        <body>
               <p>Fellow-Citizens:</p>
               <p>Without solicitation on my part, I have been chosen by the free and voluntary

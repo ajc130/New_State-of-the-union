@@ -2,17 +2,18 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>episcopal</den>
+        <name>Zachary Taylor</name>
+        <den>Episcopal</den>
         <class>upper</class>
         <kids>6</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Virginia</state>
-        <party>whig</party>
+        <party>Whig</party>
         <age>64</age>
-        <profession>soldier</profession>
+        <profession>Soldier</profession>
         <term>1</term>
         <title>Address by Zachary Taylor</title>
-        <date>1849</date>
+        <date>March 5, 1849</date>
     </meta>
     <body>
         <p>Elected by the American people to the highest office known to our laws, I appear here to

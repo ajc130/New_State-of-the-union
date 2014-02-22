@@ -1,14 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>congregationalist</den>
+        <name>Calvin Coolidge</name>
+        <den>Congregationalist</den>
         <class>middle</class>
         <kids>2</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Massachusetts</state>
-        <party>republican</party>
+        <party>Republican</party>
         <age>51</age>
-        <profession>lawyer</profession>
+        <profession>Lawyer</profession>
         <term>1</term>
         <title>Address by Calvin Coolidge</title>
         <date>1925</date>

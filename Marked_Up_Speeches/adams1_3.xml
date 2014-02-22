@@ -2,17 +2,18 @@
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>unitarian</den>
+        <name>John Adams</name>
+        <den>Unitarian</den>
         <class>upper</class>
         <kids>5</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Massachusetts</state>
-        <party>federalist</party>
+        <party>Federalist</party>
         <age>57</age>
-        <profession>lawyer</profession>
+        <profession>Lawyer</profession>
         <term>1</term>
         <title>Address by John Adams</title>
-        <date>1797</date>
+        <date>March 4, 1797</date>
     </meta>
 
     <body>

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-       <meta><den>dutch reformed</den>
+       <meta>
+              <name>Martin Van Buren</name>
+              <den>Dutch Reformed</den>
               <class>middle</class>
               <kids>6</kids>
               <married>widowed</married>
               <state>New York</state>
-              <party>democratic</party>
+              <party>Democratic</party>
               <age>54</age>
-              <profession>lawyer</profession>
+              <profession>Lawyer</profession>
               <term>1</term>
-              <title>Address by Martin Van Buren,</title>
-              <date>1837</date></meta>
+              <title>Address by Martin Van Buren</title>
+              <date>March 4, 1837</date>
+       </meta>
        <body>
               <p>Fellow-Citizens:</p>
               <p>The practice of all my predecessors imposes on me an obligation I cheerfully
