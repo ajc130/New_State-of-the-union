@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="quaker" class="lower" married="married" kids="{xsd:2}" state="california" party="republican" age="{xsd:56}" profession="lawyer" term="1"> 
+    <meta>
+        <name>Richard M. Nixon</name>
+        <den>Quaker</den>
+        <class>lower</class>
+        <kids>2</kids>
+        <married>married</married>
+        <state>California</state>
+        <party>Republican</party>
+        <age>56</age>
+        <profession>Lawyer</profession>
+        <term>1</term>
         <title>Address by Richard M. Nixon</title>
         <date>1969</date>
     </meta>
-
     <body>
         <p>Senator Dirksen, Mr. Chief Justice, Mr. Vice President, President Johnson, Vice President
             Humphrey, my fellow Americans—and my fellow citizens of the world community:</p>
@@ -180,10 +191,10 @@
             <reference type="direct" category="humility">Only a few short weeks ago, we shared the
                 glory of man’s first sight of the world as <god style="name">God</god> sees it, as a
                 single sphere reflecting light in the darkness.</reference>
-            <reference type="direct" category="suplication">As the Apollo astronauts flew over the
+            <reference type="direct" category="supplication">As the Apollo astronauts flew over the
                 moon’s gray surface on Christmas Eve, they spoke to us of the beauty of earth—and in
                 that voice so clear across the lunar distance, we heard them invoke <god
-                    style="name">God’s</god> blessing on its goodness.</reference>
+                    style="name">God’s blessing</god> on its goodness.</reference>
         </p>
 
         <p>In that moment, their view from the moon moved poet Archibald MacLeish to write: “To see

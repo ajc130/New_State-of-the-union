@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="quaker" class="lower" married="married" kids="{xsd:2}" state="california" party="republican" age="{xsd:56}" profession="lawyer" term="2">
+    <meta>
+        <name>Richard M. Nixon</name>
+        <den>Quaker</den>
+        <class>lower</class>
+        <kids>2</kids>
+        <married>married</married>
+        <state>California</state>
+        <party>Republican</party>
+        <age>60</age>
+        <profession>Lawyer</profession>
+        <term>1</term>
         <title>Address by Richard M. Nixon</title>
         <date>1973</date>
     </meta>
-
     <body>
         <p>Mr. Vice President, Mr. Speaker, Mr. Chief Justice, Senator Cook, Mrs. Eisenhower, and my
             fellow citizens of this great and good country we share together: </p>
@@ -153,7 +164,7 @@
             think of how each recognized that he needed help far beyond himself in order to make
             those dreams come true.</p>
 
-        <p><reference type="direct" category="suplication">Today, I ask your prayers that in the
+        <p><reference type="direct" category="supplication">Today, I ask your prayers that in the
                 years ahead I may have <god style="name">God’s</god> help in making decisions that
                 are right for America, and I pray for your help so that together we may be worthy of
                 our challenge.</reference> Let us pledge together to make these next four years the

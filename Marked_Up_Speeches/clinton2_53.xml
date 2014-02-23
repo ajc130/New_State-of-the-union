@@ -1,14 +1,15 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>baptist</den>
+        <name>Bill Clinton</name>
+        <den>Baptist</den>
         <class>lower</class>
         <kids>1</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Arkansas</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>50</age>
-        <profession>lawyer</profession>
+        <profession>Lawyer</profession>
         <term>2</term>
         <title>Address by Bill Clinton</title>
         <date>1997</date>

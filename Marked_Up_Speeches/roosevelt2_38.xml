@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="episcopal" class="upper" married="married" kids="{xsd:6}" state="new york" party="democratic" age="51" profession="lawyer" term="2" >
+    <meta>
+        <name>Franklin D. Roosevelt</name>
+        <den>Episcopal</den>
+        <class>upper</class>
+        <kids>6</kids>
+        <married>married</married>
+        <state>New York</state>
+        <party>Democratic</party>
+        <age>55</age>
+        <profession>Lawyer</profession>
+        <term>2</term>
         <title>Address by Franklin D. Roosevelt</title>
         <date>1937</date>
     </meta>
@@ -170,9 +181,9 @@
             chosen to advance.</p>
 
         <p>
-            <reference type="direct" category="suplication">While this duty rests upon me I shall do
-                my utmost to speak their purpose and to do their will, seeking <god style="title"
-                    >Divine</god> guidance to help us each and every one to give light to them that
+            <reference type="direct" category="supplication">While this duty rests upon me I shall
+                do my utmost to speak their purpose and to do their will, seeking <god style="title"
+                    >Divine guidance</god> to help us each and every one to give light to them that
                 sit in darkness and to guide our feet into the way of peace.</reference>
         </p>
     </body>

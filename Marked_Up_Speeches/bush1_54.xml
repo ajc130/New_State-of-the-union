@@ -1,14 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>methodist</den>
+        <name>George W. Bush</name>
+        <den>Methodist</den>
         <class>upper</class>
         <kids>2</kids>
-        <married>yes</married>
-        <state/>
-        <party>republican</party>
+        <married>married</married>
+        <state>Texas</state>
+        <party>Republican</party>
         <age>54</age>
-        <profession>businessman</profession>
+        <profession>Businessman</profession>
         <term>1</term>
         <title>Address by George W. Bush</title>
         <date>2001</date>

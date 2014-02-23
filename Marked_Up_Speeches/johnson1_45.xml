@@ -1,15 +1,16 @@
 
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>disciples of christ</den>
+        <name>Lyndon Baines Johnson</name>
+        <den>Disciple of Christ</den>
         <class>middle</class>
         <kids>2</kids>
-        <married>yes</married>
+        <married>married</married>
         <state>Texas</state>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>55</age>
-        <profession>teacher</profession>
+        <profession>Teacher</profession>
         <term>2</term>
         <title>Address by Lyndon Baines Johnson</title>
         <date>1965 </date>
@@ -102,7 +103,7 @@
             great, and mighty. And we have kept our freedom. <reference type="direct"
                 category="humility">But we have no promise from <god style="name">God</god> that our
                 greatness will endure.</reference>
-            <reference type="indirect" category="humility">We have been allowed by <god
+            <reference type="direct" category="humility">We have been allowed by <god
                     style="pronoun">Him</god> to seek greatness with the sweat of our hands and the
                 strength of our spirit.</reference></p>
         <p>I do not believe that the Great Society is the ordered, changeless, and sterile battalion

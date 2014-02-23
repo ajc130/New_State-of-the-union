@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="methodist" class="upper" married="married" kids="{xsd:2}" state="texas" party="republican" age="54" profession="businessman" term="2">
+    <meta>
+        <name>George W. Bush</name>
+        <den>Methodist</den>
+        <class>upper</class>
+        <kids>2</kids>
+        <married>married</married>
+        <state>Texas</state>
+        <party>Republican</party>
+        <age>58</age>
+        <profession>Businessman</profession>
+        <term>1</term>
         <title>Address by George W. Bush</title>
         <date>2005</date>
     </meta>
@@ -191,7 +203,7 @@
             weary—we are ready for the greatest achievements in the history of freedom.</p>
 
         <p>
-            <reference type="direct" category="suplication">May <god style="name">God</god> bless
+            <reference type="direct" category="supplication">May <god style="name">God</god> bless
                 you, and may <god style="pronoun">He</god> watch over the United States of
                 America.</reference>
         </p>

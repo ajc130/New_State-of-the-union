@@ -1,15 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>unaffiliated</den>
+        <name>Barack Obama</name>
+        <den>Unaffiliated</den>
         <class>lower</class>
         <kids>2</kids>
-        <married>yes</married>
+        <married>married</married>
         <state/>
-        <party>democratic</party>
+        <party>Democratic</party>
         <age>51</age>
-        <profession>professor</profession>
-        <profession>community organizer</profession>
+        <profession>Professor</profession>
+        <profession>Community Organizer</profession>
         <term>2</term>
         <title>Address by Barack Obama</title>
         <date>2013</date>

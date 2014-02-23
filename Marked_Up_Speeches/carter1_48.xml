@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<speech>
-    <meta den="baptist" class="middle" married="married" kids="{xsd:4}" state="georgia" party="democratic" age="{xsd:52}" profession="farmer/sailor" term="1">
-        <title>Address by Jimmy Carter</title>
-        <date>1977</date>
-    </meta>
 
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<speech>
+    <meta>
+        <name>Jimmy Carter</name>
+        <den>Baptist</den>
+        <class>middle</class>
+        <kids>4</kids>
+        <married>married</married>
+        <state>Georgia</state>
+        <party>Democratic </party>
+        <age>52</age>
+        <profession>Farmer</profession>
+        <profession>Sailor</profession>
+        <term>1</term>
+        <title>Address by Jimmy Carter</title>
+        <date>1973</date>
+    </meta>
     <body>
         <p>For myself and for our Nation, I want to thank my predecessor for all he has done to heal
             our land.</p>

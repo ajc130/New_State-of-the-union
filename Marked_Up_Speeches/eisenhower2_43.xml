@@ -1,14 +1,16 @@
-<?xml-model href="innagural_speech_schema2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
     <meta>
-        <den>presbyterian</den>
+        <name>Dwight D. Eisenhower</name>
+        <den>Presbyterian</den>
         <class>middle</class>
         <kids>2</kids>
-        <married>yes</married>
-        <state>kansas</state>
-        <party>republican</party>
-        <age>62</age>
-        <profession>soldier</profession>
+        <married>married</married>
+        <state>Kansas</state>
+        <party>Republican</party>
+        <age>66</age>
+        <profession>Soldier</profession>
         <term>2</term>
         <title>Address by Dwight D. Eisenhower</title>
         <date>1957</date>

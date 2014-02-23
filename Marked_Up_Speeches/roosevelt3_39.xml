@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
+
+<?xml-model href="FinalSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <speech>
-    <meta den="episcopal" class="upper" married="married" kids="{xsd:6}" state="new york" party="democratic" age="51" profession="lawyer" term="3">
+    <meta>
+        <name>Franklin D. Roosevelt</name>
+        <den>Episcopal</den>
+        <class>upper</class>
+        <kids>6</kids>
+        <married>married</married>
+        <state>New York</state>
+        <party>Democratic</party>
+        <age>59</age>
+        <profession>Lawyer</profession>
+        <term>3</term>
         <title>Address by Franklin D. Roosevelt</title>
         <date>1941</date>
     </meta>
-
     <body>
         <p>On each national day of inauguration since 1789, the people have renewed their sense of
             dedication to the United States.</p>

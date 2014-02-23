@@ -21,3 +21,4 @@ god=element god {mixed {(style)}}
 style=attribute style {"poetic" | "name" | "Jesus" | "pronoun"| "title"}
 type=attribute type {"direct" | "indirect"}
 category=attribute category { "supplication" | "humility" | "praise" | "testimony"}
+
