@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	backgroundColor="000000"
+	backgroundTransparent="false"
+	useFlash="true"
+	galleryStyle="MODERN"
+	frameColor="666666"
+	frameWidth="10"
+	thumbPosition="NONE"
+	indexPageName="gallery"
+
+>
+  <image imageURL="images/H.jpg"
+	thumbURL="thumbs/H.jpg"
+	linkURL="images/H.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Harding's Inauguration]]></caption>
+  </image>
+  <image imageURL="images/L.jpg"
+	thumbURL="thumbs/L.jpg"
+	linkURL="images/L.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Lincoln's Second Inauguration]]></caption>
+  </image>
+  <image imageURL="images/R.jpg"
+	thumbURL="thumbs/R.jpg"
+	linkURL="images/R.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Roosevelt's Inauguration]]></caption>
+  </image>
+</simpleviewergallery>
