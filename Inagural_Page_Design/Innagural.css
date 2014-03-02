@@ -75,7 +75,7 @@ div{
 }
 body{
     background-color:#e1e1e9;
-    margin:100px;
+    
 }
 h1,
 h2,
@@ -105,11 +105,6 @@ table{
     margin:15px;
     border:5px solid black;
 }
-span #reference{
-    color:#800000
+span #reference{color:#800000
 }
-span #poetic {background-color: #878086;}
-span #name {background-color: #767075;}
-span #Jesus {background-color: #656064;}
-span #pronoun {background-color: #545054;}
-span #title {background-color: #434043;}
+

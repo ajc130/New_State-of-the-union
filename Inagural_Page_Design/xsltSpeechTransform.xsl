@@ -18,10 +18,14 @@
                 </div>
                 <div id="bio">
                     <table border="1" rules="none" frame="box">
-                        <caption></caption>
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
+               <div id="infobox">
+                   
+                       <xsl:apply-templates select="//reference" mode="infobox"/>
+                   
+               </div>
                 <div id="main">
                     <h1>
                         <xsl:apply-templates select="//meta/title" mode="main"/>
@@ -33,12 +37,12 @@
                         <xsl:apply-templates select="//body"/>
                     
                 </div>
+               
             </body>
         </html>
     </xsl:template>
     <xsl:template match="meta">
-        <caption><xsl:apply-templates select="//meta/name"/></caption>
-                
+        <caption><xsl:apply-templates select="//meta/name"/></caption>           
         <tr>
             <td>Denomination:</td>
             <td><xsl:apply-templates select="den"/></td>
@@ -76,12 +80,29 @@
             <td><xsl:apply-templates select="term"/></td>
         </tr>
     </xsl:template>
-    
   <xsl:template match="body/p">
      <p><xsl:apply-templates/></p>
-      
   </xsl:template>
     <xsl:template match="reference">
-        <span id="reference"><xsl:apply-templates/></span>
+        <span class="reference"><xsl:apply-templates/></span>
     </xsl:template>
+    <xsl:template match="god">
+        <xsl:choose>
+            <xsl:when test="style='poetic'"><span class="poetic"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="style='name'"><span class="name"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="style='Jesus'"><span class="Jesus"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="style='pronoun'"><span class="pronoun"><xsl:apply-templates/></span></xsl:when>
+            <xsl:when test="style='title'"><span class="title"><xsl:apply-templates/></span></xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="reference" mode="infobox">
+        <div class="reference">
+            <h3>Reference <xsl:value-of select="(count(preceding::reference)+1)"/></h3>
+            <p>"<xsl:value-of select="substring(reference/text(),1,10)"/>..."</p>
+            <h4><u>Category:</u></h4>
+            <p><xsl:value-of select="reference/@style"/></p>
+        </div>
+    </xsl:template>
+  
 </xsl:stylesheet>
