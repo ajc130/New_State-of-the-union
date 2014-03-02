@@ -18,6 +18,7 @@
                 </div>
                 <div id="bio">
                     <table border="1" rules="none" frame="box">
+                        <caption></caption>
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
@@ -36,12 +37,8 @@
         </html>
     </xsl:template>
     <xsl:template match="meta">
-        
-        <tr>
-            <th>
-                <xsl:apply-templates select="//meta/name"/>
-            </th>
-        </tr>           
+        <caption><xsl:apply-templates select="//meta/name"/></caption>
+                
         <tr>
             <td>Denomination:</td>
             <td><xsl:apply-templates select="den"/></td>
@@ -79,8 +76,10 @@
             <td><xsl:apply-templates select="term"/></td>
         </tr>
     </xsl:template>
+    
   <xsl:template match="body/p">
      <p><xsl:apply-templates/></p>
+      
   </xsl:template>
     <xsl:template match="reference">
         <span id="reference"><xsl:apply-templates/></span>
