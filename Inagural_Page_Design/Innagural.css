@@ -88,14 +88,14 @@ h3{
     font-style:normal;
 }
 h1{font-family:"Iskoola Pota";
-    color:#9C3145;
+    color:#BCC0CC;
     text-align:left;
     font-size:22px;
 }
 h2{
-    color:#161617;
+    color:
     text-align:center;
-    font-size:50px;font-family:"Baskerville Old Face", serif;
+    font-size:50px;font-family:"Baskerville Old Face", serif; 
 }
 h3{
     color:#03033c;
@@ -114,5 +114,6 @@ span #reference{color:#800000
 #top {background-color:#480000; width:100%;
 padding:0px;
 border:5px solid #2a2a2b;
-margin:0px;}
+margin:0px;
+}
 #portrait {height: 125.7px; width:95px;}
