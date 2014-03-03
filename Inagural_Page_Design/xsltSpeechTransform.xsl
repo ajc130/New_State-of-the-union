@@ -9,7 +9,7 @@
                 <title>
                     <apply-templates select="//meta/title" mode="title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="speech.css"/>
+                <link rel="stylesheet" type="text/css" href="inaugural.css"/>
                 <script type="text/javascript" src="inaugural.js">/**/</script>
             </head>
             <body>
