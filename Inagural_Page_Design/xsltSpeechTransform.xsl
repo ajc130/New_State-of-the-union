@@ -8,13 +8,18 @@
                 <title>
                     <apply-templates select="//meta/title" mode="title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="Innagural.css"/>
+                <link rel="stylesheet" type="text/css" href="speech.css"/>
+                <script type="text/javascript" src="inaugural.js">/**/</script>
             </head>
             <body>
                 <div id="header">
-                    <p> Portrait! <br/>
-                    </p>
-                    <h1>I'm a smartical president type saying things.</h1>
+                    <img src="Lincoln.jpg"  alt="Lincoln" id="portrait"/>
+                    
+                    
+                    <h1><em>"God is always right."</em>-Abraham Lincoln</h1>
+                    <h2>U.S. Presidential Innagural Addresses: So Help Me God</h2>
+                    
+                    <!--#include virtual="menu.html" -->
                 </div>
                 <div id="bio">
                     <table border="1" rules="none" frame="box">
