@@ -9,14 +9,37 @@
         <title>U.S Presidential Innagural Addresses: So Help Me God</title>
     </head>
     <body>
-        <script type="text/javascript" src="Innagural.js"></script>
-      <p> <img src="Lincoln.jpg" alt="Lincoln's Portrait" height="127.5" width="95"/> <br/> </p>
+        <script type="text/javascript" src="Inaugural.js"></script>
+     <div id="top"><img src="Lincoln.jpg"  alt="Lincoln" id="portrait"/>
        
         
-        <h1>"God is always right."-Abraham Lincoln</h1>
+        <h1><em>"God is always right."</em>-Abraham Lincoln</h1>
         <h2>U.S. Presidential Innagural Addresses: So Help Me God</h2>
-        
-        <!--#include virtual="menu.html" -->
-   
+        <ul id="sddm">
+            <li><a href="Innagural_Home.xhtml">Home</a></li>
+            <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Background</a>
+                <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="Parties.xhtml">Political Parties</a>
+                    <a href="Team.xhtml">Project Team</a></div></li>
+            
+            <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Addresses</a>
+                <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="PictureView.xhtml">Picture View</a>
+                    <a href="TextView">Text View</a>
+                    
+                </div>
+            </li>
+            <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Data</a>
+                <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                    <a href="References.xhtml">Reference Types</a>
+                    <a href="Terms.xhtml">God Terms</a>
+                    <a href="charts.xhtml">Charts</a>
+                    
+                </div>
+            </li>
+            <li><a href="conclusion.xhtml" onmouseover="mopen('m2')" onmouseout="mclosetime()">Conclusion</a></li>
+        </ul>
+        <div style="clear:both"></div></div>
+        <div><img src="home.jpg" alt="inaugurational"/></div>
     </body>
 </html>
