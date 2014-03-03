@@ -81,27 +81,24 @@ body{
     background-color:#EDECF1;
     
 }
-h1,
-h2,
-h3{
-    
-    font-style:normal;
-}
 h1{font-family:"Iskoola Pota";
     color:#BCC0CC;
     text-align:left;
     font-size:22px;
+    font-style:normal;
 }
 h2{
     color:black;
     text-align:center;
     font-size:50px;
-    font-family:"Baskerville Old Face", serif; 
+    font-family:"Baskerville Old Face", serif;
+    font-style:normal;
 }
 h3{
     color:#03033c;
     text-align:left;
     font-size:13px;
+    font-style:normal;
 }
 table{
     float:left;
@@ -119,4 +116,4 @@ margin:0px;
 }
 #portrait {height: 125.7px; width:95px;}
 
-.reference {border:5px solid black;}
+div.reference {border:5px solid black;}
