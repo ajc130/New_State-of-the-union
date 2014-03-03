@@ -80,12 +80,15 @@
             <td><xsl:apply-templates select="term"/></td>
         </tr>
     </xsl:template>
+    
   <xsl:template match="body/p">
      <p><xsl:apply-templates/></p>
   </xsl:template>
+    
     <xsl:template match="reference">
         <span class="reference"><xsl:apply-templates/></span>
     </xsl:template>
+    
     <xsl:template match="god">
         <xsl:choose>
             <xsl:when test="style='poetic'"><span class="poetic"><xsl:apply-templates/></span></xsl:when>
@@ -99,9 +102,14 @@
     <xsl:template match="reference" mode="infobox">
         <div class="reference">
             <h3>Reference <xsl:value-of select="(count(preceding::reference)+1)"/></h3>
-            <p>"<xsl:value-of select="substring(reference/text(),1,10)"/>..."</p>
+            <p>"<xsl:value-of select="reference"/>..."</p>
             <h4><u>Category:</u></h4>
-            <p><xsl:value-of select="reference/@style"/></p>
+            <h4><a>
+                <xsl:attribute name="href"> 
+                    <xsl:value-of select="@category"/><xsl:text>.html</xsl:text>
+                </xsl:attribute>
+                <xsl:value-of select="@category"/>
+            </a></h4>
         </div>
     </xsl:template>
   
