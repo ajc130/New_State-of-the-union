@@ -2,14 +2,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0"
     xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xhtml" indent="yes"/>
+    <xsl:output method="html" indent="yes"/>
     <xsl:template match="/">
         <html>
             <head>
                 <title>
                     <apply-templates select="//meta/title" mode="title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="inaugural.css"/>
+                <link rel="stylesheet" type="text/css" href="innagural.css"/>
                 <script type="text/javascript" src="inaugural.js">/**/</script>
             </head>
             <body>
@@ -27,15 +27,11 @@
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
-                <div id="infobox">
-
-                    <xsl:apply-templates select="//reference" mode="infobox"/>
-
-                </div>
+                
                 <div id="main">
-                    <h1>
+                    <h5>
                         <xsl:apply-templates select="//meta/title" mode="main"/>
-                    </h1>
+                    </h5>
                     <h3>
                         <xsl:apply-templates select="//meta/date" mode="main"/>
                     </h3>
@@ -43,14 +39,16 @@
                     <xsl:apply-templates select="//body"/>
 
                 </div>
+<div id="infobox">
 
+                    <xsl:apply-templates select="//reference" mode="infobox"/>
+
+                </div>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="meta">
-        <caption>
-            <xsl:apply-templates select="//meta/name"/>
-        </caption>
+        
         <tr>
             <td>Denomination:</td>
             <td>
@@ -152,11 +150,11 @@
     <xsl:template match="reference" mode="infobox">
         <div class="reference">
             <h3>Reference <xsl:value-of select="(count(preceding::reference)+1)"/></h3>
-            <p>"<xsl:value-of select="reference"/>..."</p>
-            <h4>
-                <u>Category:</u>
-            </h4>
-            <h4>
+            <p>"<xsl:analyze-string select="." regex="([a-z]+ [a-z]+ [a-z]+)"><xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring><xsl:non-matching-substring></xsl:non-matching-substring></xsl:analyze-string>..."</p>
+            <p>
+                Category:
+            </p>
+            <p>
                 <a>
                     <xsl:attribute name="href">
                         <xsl:value-of select="@category"/>
@@ -164,7 +162,7 @@
                     </xsl:attribute>
                     <xsl:value-of select="@category"/>
                 </a>
-            </h4>
+            </p>
         </div>
     </xsl:template>
 
