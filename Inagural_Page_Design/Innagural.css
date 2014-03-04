@@ -2,7 +2,8 @@
 { height:80%;
     margin:0;
     padding:0;
-    z-index:30}
+    z-index:30;
+   }
 
 #sddm li
 {width:20%;
@@ -74,26 +75,20 @@ div{
     width:50%;
 }
 
- img { float:left;
-    padding:0px 25px 0px 0px;
-}
+
 body{
     background-color:#EDECF1;
     
 }
-h1,
-h2,
-h3{
-    
-    font-style:normal;
-}
+
+
 h1{font-family:"Iskoola Pota";
     color:#BCC0CC;
     text-align:left;
     font-size:22px;
 }
 h2{
-    color:
+    color: #EDECF1;
     text-align:center;
     font-size:50px;font-family:"Baskerville Old Face", serif; 
 }
@@ -109,11 +104,17 @@ table{
     margin:15px;
     border:5px solid black;
 }
-span #reference{color:#800000
+span #reference{color:#480000
 }
-#top {background-color:#480000; width:100%;
+#header {background-color:#480000; width:100%;
 padding:0px;
 border:5px solid #2a2a2b;
 margin:0px;
 }
-#portrait {height: 125.7px; width:95px;}
+#portrait {height: 125.7px; width:95px;float:left;
+    padding:0px 25px 0px 0px;}
+#home {width:100%; margin:auto; padding:25px;}
+#home2 {  display: block;
+  margin-left: auto;
+  margin-right: auto;border:5px solid #480000;}
+p {font-family:"Georgia";}
