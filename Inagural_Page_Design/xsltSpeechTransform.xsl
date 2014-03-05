@@ -9,7 +9,7 @@
                 <title>
                     <apply-templates select="//meta/title" mode="title"/>
                 </title>
-                <link rel="stylesheet" type="text/css" href="innagural.css"/>
+                <link rel="stylesheet" type="text/css" href="Innagural.css"/>
                 <script type="text/javascript" src="speech.js">/**/</script>
                 <script type="text/javascript" src="Inaugural.js">/**/</script>
             </head>
@@ -20,7 +20,6 @@
 
                     <h1><em>"God is always right."</em>-Abraham Lincoln</h1>
                     <h2>U.S. Presidential Innagural Addresses: So Help Me God</h2>
-
                     <!--#include virtual="menu.html" -->
                 </div>
                 <div id="bio">
@@ -28,7 +27,11 @@
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
-                
+                <div id="infobox">
+
+                    <xsl:apply-templates select="//reference" mode="infobox"/>
+
+                </div>
                 <div id="main">
                     <h5>
                         <xsl:apply-templates select="//meta/title" mode="main"/>
@@ -40,11 +43,7 @@
                     <xsl:apply-templates select="//body"/>
 
                 </div>
-<div id="infobox">
 
-                    <xsl:apply-templates select="//reference" mode="infobox"/>
-
-                </div>
             </body>
         </html>
     </xsl:template>

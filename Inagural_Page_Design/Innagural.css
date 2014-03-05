@@ -180,14 +180,15 @@ a{
 }
 #main{
     width:70%;
-    float:left;
+    float:right;
+    
 }
 #infobox{
     margin:5px;
     border:5px solid black;
     width:10%;
-    float:left;
+    float:right;
     opacity:0;
 }
-.reference {text-decoration:underline;}
-#infobox:hover, .reference:hover{opacity:1}
+.reference {color:#0d2e6f;}
+#infobox:hover{opacity:1}
