@@ -10,7 +10,8 @@
                     <apply-templates select="//meta/title" mode="title"/>
                 </title>
                 <link rel="stylesheet" type="text/css" href="innagural.css"/>
-                <script type="text/javascript" src="inaugural.js">/**/</script>
+                <script type="text/javascript" src="speech.js">/**/</script>
+                <script type="text/javascript" src="Inaugural.js">/**/</script>
             </head>
             <body>
                 <div id="header">
@@ -117,40 +118,30 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="god">
-        <xsl:choose>
-            <xsl:when test="style='poetic'">
-                <span class="poetic">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:when>
-            <xsl:when test="style='name'">
-                <span class="name">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:when>
-            <xsl:when test="style='Jesus'">
-                <span class="Jesus">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:when>
-            <xsl:when test="style='pronoun'">
-                <span class="pronoun">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:when>
-            <xsl:when test="style='title'">
-                <span class="title">
-                    <xsl:apply-templates/>
-                </span>
-            </xsl:when>
-        </xsl:choose>
+    <xsl:template match="god[@style='poetic']">
+        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a poetic illusion to a deity. Click to learn more about poetic illusions to dieties','poetic.xhtml')">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
-
+    <xsl:template match="god[@style='pronoun']">
+        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a pronoun connected to a diety. Click to learn more about pronouns connected to dieties','pronoun.xhtml')">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="god[@style='title']">
+        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected the title of a deity. Click to learn more about titles of dieties','title.xhtml')">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="god[@style='name']">
+        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a name of a deity. Click to learn more about names of dieties','name.xhtml')">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     <xsl:template match="reference" mode="infobox">
         <div class="reference">
             <h3>Reference <xsl:value-of select="(count(preceding::reference)+1)"/></h3>
-            <p>"<xsl:analyze-string select="." regex="([a-z]+ [a-z]+ [a-z]+)"><xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring><xsl:non-matching-substring></xsl:non-matching-substring></xsl:analyze-string>..."</p>
+            <p>"<xsl:analyze-string select="." regex="(\w+\s\w+\s\w+)\s "><xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring></xsl:analyze-string>..."</p>
             <p>
                 Category:
             </p>

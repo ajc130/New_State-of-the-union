@@ -187,4 +187,7 @@ a{
     border:5px solid black;
     width:10%;
     float:left;
+    opacity:0;
 }
+.reference {text-decoration:underline;}
+#infobox:hover, .reference:hover{opacity:1}
