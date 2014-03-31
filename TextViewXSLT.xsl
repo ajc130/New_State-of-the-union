@@ -25,7 +25,7 @@
             </xsl:attribute>
             <a>
                 <xsl:attribute name="href">
-                    <xsl:value-of select="meta/name"/>
+                    <xsl:value-of select="concat(substring-before(tokenize(base-uri(.),'/')[last()],'.xml'),'.html')"/>
                 </xsl:attribute>
                 <xsl:apply-templates select="meta/title"/></a>
         </li> 
