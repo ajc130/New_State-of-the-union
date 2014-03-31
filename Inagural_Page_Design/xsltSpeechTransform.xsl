@@ -20,6 +20,7 @@
 
                     <h1><em>"God is always right."</em>-Abraham Lincoln</h1>
                     <h2>U.S. Presidential Innagural Addresses: So Help Me God</h2>
+
                     <!--#include virtual="menu.html" -->
                 </div>
                 <div id="bio">
@@ -27,7 +28,9 @@
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
-                <div id="infobox">
+                
+                
+<div id="infobox">
 
                     <xsl:apply-templates select="//reference" mode="infobox"/>
 
@@ -39,11 +42,10 @@
                     <h3>
                         <xsl:apply-templates select="//meta/date" mode="main"/>
                     </h3>
-
+                    
                     <xsl:apply-templates select="//body"/>
-
+                    
                 </div>
-
             </body>
         </html>
     </xsl:template>
@@ -102,9 +104,34 @@
             <td>
                 <xsl:apply-templates select="term"/>
             </td>
-        </tr>
-    </xsl:template>
-
+        </tr></xsl:template>
+        
+    
+ <xsl:template match="reference" mode="infobox">
+        <xsl:variable name="tokenized" select="tokenize(.,'\s+')"/>
+        <div>
+            <h3>
+                <xsl:text>Reference </xsl:text>
+                <xsl:value-of select="(count(preceding::reference)+1)"/>
+            </h3>
+            <p>
+                <q><xsl:value-of select="string-join($tokenized[position() lt 4],' ')"/>
+                    <xsl:if test="$tokenized[3] = ('a','an','the')">
+                        <xsl:value-of select="concat(' ',$tokenized[4])"/>
+                    </xsl:if></q>
+            </p>
+            <p> Category: </p>
+            <p>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="@category"/>
+                        <xsl:text>.html</xsl:text>
+                    </xsl:attribute>
+                    <xsl:value-of select="@category"/>
+                </a>
+            </p>
+        </div>
+ </xsl:template>
     <xsl:template match="body/p">
         <p>
             <xsl:apply-templates/>
@@ -137,23 +164,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="reference" mode="infobox">
-        <div class="reference">
-            <h3>Reference <xsl:value-of select="(count(preceding::reference)+1)"/></h3>
-            <p>"<xsl:analyze-string select="." regex="(\w+\s\w+\s\w+)\s "><xsl:matching-substring><xsl:value-of select="."/></xsl:matching-substring></xsl:analyze-string>..."</p>
-            <p>
-                Category:
-            </p>
-            <p>
-                <a>
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="@category"/>
-                        <xsl:text>.html</xsl:text>
-                    </xsl:attribute>
-                    <xsl:value-of select="@category"/>
-                </a>
-            </p>
-        </div>
-    </xsl:template>
+   
+  
 
 </xsl:stylesheet>

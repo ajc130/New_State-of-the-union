@@ -175,20 +175,19 @@ a{
     width:100%;
 }
 #bio{
-    width:15%;
+width:250px;
     float:left;
 }
 #main{
-    width:70%;
-    float:right;
+    width:80%;
     
 }
 #infobox{
     margin:5px;
     border:5px solid black;
-    width:10%;
+    width:15%;
     float:right;
     opacity:0;
 }
-.reference {color:#0d2e6f;}
-#infobox:hover{opacity:1}
+.reference {text-decoration:underline;}
+#infobox:hover, .reference:hover{opacity:1}

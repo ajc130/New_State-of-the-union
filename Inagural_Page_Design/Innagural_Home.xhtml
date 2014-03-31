@@ -6,15 +6,36 @@
 
         <link rel="stylesheet" type="text/css" href="Innagural.css" />
 
-        <title>U.S Presidential Innagural Addresses: So Help Me God</title>
+        <title>U.S Presidential Inaugural Addresses: So Help Me God</title>
     </head>
     <body>
         <script type="text/javascript" src="Inaugural.js"></script>
-        <div id="header"><img src="Portraits/lincoln.jpg" alt="Lincoln" id="portrait" />
+        <div id="header"><img src="Lincoln.jpg" alt="Lincoln" id="portrait" />
             <h1><em>"God is always right." </em>-Abraham Lincoln</h1>
             <h2>U.S. Presidential Innagural Addresses:<br/> So Help Me God</h2>
-            <!--#include virtual="menu.html" -->
-        </div>
+            <ul id="sddm">
+                <li><a href="Innagural_Home.xhtml">Home</a></li>
+                <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Background</a>
+                    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="Parties.xhtml">Political Parties</a>
+                        <a href="Team.xhtml">Project Team</a></div></li>
+
+                <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Addresses</a>
+                    <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="PictureView.xhtml">Picture View</a>
+                        <a href="TextView">Text View</a>
+                    </div>
+                </li>
+                <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Data</a>
+                    <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="References.xhtml">Reference Types</a>
+                        <a href="Terms.xhtml">God Terms</a>
+                        <a href="charts.xhtml">Charts</a>
+                    </div>
+                </li>
+                <li><a href="conclusion.xhtml">Conclusion</a></li>
+            </ul>
+            <div style="clear:both"></div></div>
         <div id="home"><br /><img src="home.jpg" alt="inaugurational" id="home2" /><br />
             <p>The purpose of this research is to study the effect that time and circumstance may
                 have with regards to references to God by Presidents of the United States in their
