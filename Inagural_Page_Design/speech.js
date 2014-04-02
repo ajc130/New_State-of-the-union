@@ -1,19 +1,13 @@
-function overlay(id,text,url) {
-   
-    if (document.getElementById(id)) return; // don't create a popup if there's already one open for this id
-    var overlay = document.createElement("div");
-    var XMousePos = window.event.clientX;
-    var Ypos = window.event.clientY;
-    var windowWidth = window.innerWidth;
-    if (windowWidth - XMousePos > 300) {
-        var Xpos = XMousePos
-    } else {
-        var Xpos = windowWidth - 310
-    };
-    overlay.setAttribute("id", id);
-    overlay.setAttribute("style", "background-color: #BCC0CC; left:25; top:25; border: 2px solid #2a2a2b; width: 300px; padding: 2px; margin: 0;")
-    overlay.setAttribute("onclick", "document.body.removeChild(document.getElementById('" + id + "'))");
-    overlay.setAttribute("class", "overlay");
-    overlay.innerHTML = "<div>" + text + ": <a href='" + url + "'>" + url + "</a></div>";
-    document.body.appendChild(overlay);
-}
+window.addEventListener("load", function () {
+    var titlecodes = document.getElementsByClassName("titlecode");
+    for (var i = 0; i < titlecodes.length; i++) {
+        titlecodes[i].addEventListener("mouseover", function () {
+            var titletooltip = this.getElementsByClassName("titletooltip")[0];
+            titletooltip.removeAttribute("style");
+        });
+        titlecodes[i].addEventListener("mouseout", function () {
+            var titletooltip = this.getElementsByClassName("titletooltip")[0];
+            titletooltip.style.display = "none";
+        });
+    }
+});

@@ -143,26 +143,33 @@
     </xsl:template>
 
     <xsl:template match="god[@style='poetic']">
-        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a poetic illusion to a deity. Click to learn more about poetic illusions to dieties','poetic.xhtml')">
+        <a href="title.xhtml" class="titlecode">
             <xsl:apply-templates/>
-        </span>
+            <span class="titletooltip" style="display: none;">This is a poetic reference to a deity. Click here to learn more about poetic references to deities.</span></a>
+           
+        
     </xsl:template>
     <xsl:template match="god[@style='pronoun']">
-        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a pronoun connected to a diety. Click to learn more about pronouns connected to dieties','pronoun.xhtml')">
+        <a href="title.xhtml" class="titlecode">
             <xsl:apply-templates/>
-        </span>
+            <span class="titletooltip" style="display: none;">This is a pronoun that has a deity as its antecedent. Click here to learn more about pronouns with divine antecedents.</span></a>
+        
+        
     </xsl:template>
     <xsl:template match="god[@style='title']">
-        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected the title of a deity. Click to learn more about titles of dieties','title.xhtml')">
+        <a href="title.xhtml" class="titlecode">
             <xsl:apply-templates/>
-        </span>
+            <span class="titletooltip" style="display: none;">This is the title of a deity. Click here to learn more about divine titles.</span></a>
+        
+        
     </xsl:template>
     <xsl:template match="god[@style='name']">
-        <span style="color:#a70a0a ;" onclick="overlay('id1','You have selected a name of a deity. Click to learn more about names of dieties','name.xhtml')">
+        <a href="title.xhtml" class="titlecode">
             <xsl:apply-templates/>
-        </span>
+            <span class="titletooltip" style="display: none;">This is the name of a deity. Click here to learn more about deity names.</span></a>
+        
+        
     </xsl:template>
-   
   
 
 </xsl:stylesheet>
