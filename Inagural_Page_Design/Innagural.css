@@ -106,6 +106,14 @@ h5{
     font-size:25px;
     text-align:left;
 }
+.box {color:#2a2a2b;
+    font-family:"Georgia";
+    font-weight:bold;
+    font-size:19px;
+    text-align:center;
+    padding:0px;
+    margin:0px;}
+.boxy {width:100%;}
 h3{
     color:#03033c;
     text-align:left;
@@ -174,20 +182,30 @@ a{
 
     width:100%;
 }
-#bio{
-width:250px;
+#bi{padding:5px;
+    margin: 5px;
+    border:5px solid black;
+    width:250px;
     float:left;
+    background:white;
 }
+
 #main{
     width:80%;
     
 }
 #infobox{
+    padding:5px;
     margin:5px;
     border:5px solid black;
     width:15%;
-    float:right;
-    opacity:0;
-}
-.reference {text-decoration:underline;}
-#infobox:hover, .reference:hover{opacity:1}
+    position: absolute;
+    right: 0;
+    background:white;
+    font-family: "Georgia";
+   }
+   
+   .reference:target
+   {color:white;
+    background:#000048;}
+

@@ -19,19 +19,19 @@
 
 
                     <h1><em>"God is always right."</em>-Abraham Lincoln</h1>
-                    <h2>U.S. Presidential Innagural Addresses: So Help Me God</h2>
+                    <h2>U.S. Presidential Inaugural Addresses: So Help Me God</h2>
 
                     <!--#include virtual="menu.html" -->
                 </div>
                 <div id="bio">
-                    <table border="1" rules="none" frame="box">
+                    <table id="bi">
                         <xsl:apply-templates select="//meta"/>
                     </table>
                 </div>
                 
                 
 <div id="infobox">
-
+<h5 class="box">References</h5>
                     <xsl:apply-templates select="//reference" mode="infobox"/>
 
                 </div>
@@ -50,7 +50,7 @@
         </html>
     </xsl:template>
     <xsl:template match="meta">
-        
+        <th colspan="2">Biographical Information</th>
         <tr>
             <td>Denomination:</td>
             <td>
@@ -109,20 +109,18 @@
     
  <xsl:template match="reference" mode="infobox">
         <xsl:variable name="tokenized" select="tokenize(.,'\s+')"/>
-        <div>
+        <div class="boxy">
             <h3>
-                <xsl:text>Reference </xsl:text>
-                <xsl:value-of select="(count(preceding::reference)+1)"/>
+                <a href="#reference{count(preceding::reference)+1}"><xsl:text>Reference </xsl:text><xsl:value-of select="(count(preceding::reference)+1)"/>
+                </a>
             </h3>
             <p>
-                <q><xsl:value-of select="string-join($tokenized[position() lt 4],' ')"/>
+                <q><em><xsl:value-of select="string-join($tokenized[position() lt 4],' ')"/>
                     <xsl:if test="$tokenized[3] = ('a','an','the')">
                         <xsl:value-of select="concat(' ',$tokenized[4])"/>
-                    </xsl:if></q>
+                    </xsl:if>...</em></q>
             </p>
-            <p> Category: </p>
-            <p>
-                <a>
+            <p><xsl:text>Category: </xsl:text><a>
                     <xsl:attribute name="href">
                         <xsl:value-of select="@category"/>
                         <xsl:text>.html</xsl:text>
@@ -139,7 +137,7 @@
     </xsl:template>
 
     <xsl:template match="reference">
-        <span class="reference">
+        <span class="reference" id="reference{count(preceding::reference) + 1}" >
             <xsl:apply-templates/>
         </span>
     </xsl:template>
