@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Yearly count of reference category=testimony tags -->
+<!-- Total reference category=testimony tags count in all 57 speeches: 16 -->
 <speeches category="testimony">
    <speech year="1789">0</speech>
    <speech year="1793">0</speech>

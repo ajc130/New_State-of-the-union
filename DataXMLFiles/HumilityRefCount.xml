@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Yearly count of reference category=humility tags -->
+<!-- Total reference category=humility tags count in all 57 speeches: 59 -->
 <speeches category="humility">
    <speech year="1789">2</speech>
    <speech year="1793">0</speech>

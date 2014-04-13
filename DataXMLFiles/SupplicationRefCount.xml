@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Yearly count of reference category=supplication tags -->
+<!-- Total reference category=supplication tags count in all 57 speeches: 52 -->
 <speeches category="supplication">
    <speech year="1789">4</speech>
    <speech year="1793">0</speech>
