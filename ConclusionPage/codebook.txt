@@ -1,0 +1,60 @@
+Codebook for the dataset reference.dta
+
+Description			         Variable Name and Code
+
+Dependent Variable:
+
+Average Number of References:   ref = a counting number of references (total number of references/ number of speeches) 		               
+
+Discrete Regressors:
+
+Number of Children:             kids = a counting number of kids the President had
+Average Age of President:       age = The average age of the President at the beginning of his term(s)
+
+Binary Regressors:
+
+Economic Class
+
+Upper Class:                    upper = 1 (President was from upper class), 0 (President was not)
+Middle Class:                   middle = 1 (President was from middle class), 0 (President was not)
+
+A lower class binary variable omitted so that the reference category in interpretation is the lower class.
+
+Education
+
+Highest Level of Graduate Degree:     
+Highest Level of Undergraduate Degree:
+Highest Level of Some College:
+
+The reference category is no college experience whatsoever
+
+Religion
+
+Episcopalian:                    episcopalian = 1 (President was Episcopalian), 0 (President was not)
+Presbyterian:                    presbyterian = 1 (President was Presbyterian), 0 (President was not)
+Methodist:                       methodist = 1 (President was Methodist), 0 (President was not)                              
+Baptist:                         baptist = 1 (President was Baptist), 0 (President was not)
+Unitarian:                       unitarian = 1 (President was Unitarian), 0 (President was not)
+Disciples of Christ:             disciples = 1 (President was a Disciple of Christ), 0 (President was not)
+Unaffiliated with a Church:      unaffiliated = 1 (President was an unaffiliated Christian), 0 (President was not)
+Dutch Reformed:                  dutchreformed = 1 (President was Dutch Reformed), 0 (President was not)
+Quaker:                          quaker = 1 (President was a Quaker), 0 (President was not)
+Congregationalist:               congregationalist = 1 (President was a Congregationalist), 0 (President was not)
+Catholic:                        catholic = 1 (President was a Catholic), 0 (President was not)
+
+The reference category to the 
+
+Occupation
+
+Lawyer:				 lawyer = 1 (President was a lawyer), 0 (President was not)
+
+The reference category is occupation other than lawyer.
+
+Political Party
+
+Democratic:			democratic = 1 (President was Democratic), 0 (President was not)
+Democratic-Republican:2		dr = 1 (President was Democratic-Republican), 0 (President was not)
+Federalist:3			fed = 1 (President was Federalist), 0 (President was not)
+Republican:4			repub = 1( President was Republican), 0 (President was not)
+Whig:6				whig = 1 (President was Whig), 0 (President was not)
+							

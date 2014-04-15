@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="inaugural.css" />
+
+        <title>U.S Presidential Inaugural Addresses: So Help Me God</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="Inaugural.js"></script>
+        <div id="header"><img src="Lincoln.jpg" alt="Lincoln" id="portrait" />
+            <h1><em>"Forty-four Americans have now taken the presidential oath. The words have been
+                    spoken during rising tides of prosperity and the still waters of peace."
+                </em>-Barack Obama</h1>
+            <h2>U.S. Presidential Inaugural Addresses:<br /> So Help Me God</h2>
+            <ul id="sddm">
+                <li><a href="Innagural_Home.xhtml">Home</a></li>
+                <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Background</a>
+                    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="Parties.xhtml">Political Parties</a>
+                        <a href="Team.xhtml">Project Team</a></div></li>
+
+                <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Addresses</a>
+                    <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="PictureView.xhtml">Picture View</a>
+                        <a href="TextView">Text View</a>
+                    </div>
+                </li>
+                <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Data</a>
+                    <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        <a href="References.xhtml">Reference Types</a>
+                        <a href="Terms.xhtml">God Terms</a>
+                        <a href="charts.xhtml">Charts</a>
+                    </div>
+                </li>
+                <li><a href="conclusion.xhtml">Conclusion</a></li>
+            </ul>
+            <div style="clear:both"></div></div>
+        <div id="home">
+            <h5>Relating a President's background to his use of God references with Poisson
+                Regression Analysis</h5>
+            <h3>What is Regression Analysis?</h3>
+            <p>In short, regression analysis is a statistical method to estimate the relationship
+                between a dependent variable (commonly referred to as “y” or the left side variable)
+                and one or more independent variables (commonly referred to as "x" or the
+                regressors). Regression analysis provides a model that allows a user to gain
+                understanding of how the typical dependent variable changes with changes in the
+                independent variables, <em>holding the other independent variables constant.</em>
+                Because of this functionality, regression is typically used to predict or forecast
+                the value of the dependent variable, when values for the independent variables are
+                known.</p>
+            <p>There are different types of regression models depending on the nature of the data.
+                The simplest type of regression model is a standard linear model. This method may be
+                familiar to a user who have done basic line of best fit work with scatter plots, as
+                seen below.</p>
+            <div id="scatterplot"><svg xmlns="http://www.w3.org/2000/svg" width="308" height="325">
+                    <line x1="4" y1="25" x2="4" y2="304" stroke="black"></line>
+                    <line x1="4" y1="304" x2="304" y2="304" stroke="black"></line>
+                    <!-- Line of best fit -->
+                    <line x1="4" y1="300" x2="304" y2="130" stroke="red"></line>
+                    <!-- Error Term -->
+                    <line x1="250" y1="220" x2="250" y2="161" stroke="blue"></line>
+                    <text x="252" y="190" style="font-family:Times,serif;fill:blue;font-size:12px"
+                        >Error Term </text>
+                    <!-- Points for the scatter plot -->
+                    <circle cx="20" cy="280" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="100" cy="200" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="50" cy="285" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="75" cy="240" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="125" cy="270" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="300" cy="100" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="270" cy="130" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="175" cy="210" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="10" cy="285" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="250" cy="220" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="200" cy="140" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="145" cy="260" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <circle cx="230" cy="160" r="2" stroke="black" stroke-width="1" fill="black"></circle>
+                    <!-- The Predicted Value -->
+                    <circle cx="130" cy="230" r="2.25" stroke="green" stroke-width="1.5"
+                        fill="green"></circle>
+                    <line x1="130" y1="302" x2="130" y2="307" stroke="black"></line>
+                    <line x1="2" y1="230" x2="6" y2="230" stroke="black"></line>
+                    <text x="126" y="320" style="font-family:Times,serif;fill:black;font-size:10px"
+                        >86</text>
+                    <text x="9" y="235" style="font-family:Times,serif;fill:black;font-size:10px"
+                        >50</text>
+                    <text x="138" y="235" style="font-family:Times,serif;fill:black;font-size:10px"
+                        >Predicted Value</text>
+                </svg></div>
+            <h3>Why Poisson Analysis?</h3>
+            <p>Of course, whenever you include more than one variable and change the characteristics
+                of the predicted variable, the more complicated a model one has to use for accurate
+                results. For example, in the previous illustration the dependent variable was
+                weight—which is a continuous variable (theoretically one could weigh 110 pounds,
+                110.0001 pounds, 110.0002 pounds…), but what if the dependent variable was a
+                discrete counting number? For our project, our dependent variable—the number of
+                references to God—is a discrete variable for it can have the value 1, 2, 3… but a
+                speech cannot have 1.467 references to God. The Poisson regression model is usually
+                used on data of the counting nature.</p>
+            <p>One of the primary differences between a simple linear regression model, and a
+                Poisson regression model is what is called the “link function.” A link function is
+                what links the independent variables to the error term. In the standard linear
+                regression, the link function is an identity link, meaning that the coefficients or
+                the “slope terms” can be interpreted as seen above. The link function for the
+                Poisson model is much more complex, with the use of logarithmic functions. The model
+                will be further explained with an applied approach with the data collected.</p>
+            <h3>How do you interpret the results of the Poisson regresion model?</h3>
+            <p>In pure mathematical terms: a one unit change in the independent variable, e.g. the
+                increase of one child, other variables held constant, results in the difference in
+                the logs of the expected counts in the amount of the regression coefficient of that
+                variable. In equation terms:</p>
+            <h3 class="equation">β = log( μx+1) - log( μx )</h3>
+            <p>Where β is the regression coefficient, μ is the expected count of the dependent
+                variable, denoting a one unit increase.</p>
+            <p>Using rules of logarithms, a term called the incident rate ratio (IRR), which has a
+                more direct interpretation as seen in the simple regression model, can be calculated
+                from the Poisson regression coefficients. More information on the Poisson regression
+                model can be found <a
+                    href="http://www.ats.ucla.edu/stat/stata/output/stata_poisson_output.htm"
+                    >here</a>.</p>
+            <h3>Our results</h3>
+            <p>Our dependent variable was the average number of references to God used by a
+                President, with the President's background information as the independent
+                variables.For background on the variables used in our Poisson regression, check out
+                the regression <a href="codebook.txt">codebook</a>. The nature of our data required
+                the frequent use of binary or dummy variables.</p>
+            <p>The actual statistical mathematics required to produce the Poisson model was done in
+                the STATA software which is free to all University of Pittsburgh students. Upon
+                running the regression, the first ouput screen looked like the following:</p>
+            <img src="coefficients.jpg" alt="STATA output 1"/>
+            <img src="irr.jpg" alt="STATA output 2"/>
+            <img src="refhistogram.jpg" alt="STATA output 3" width="400px" height="400px"/>
+        </div>
+    </body>
+</html>
