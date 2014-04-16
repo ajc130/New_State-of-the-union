@@ -230,3 +230,16 @@ color: black;
 font-family:Georgia;
 color: #a70a0a;
 }
+
+/*One line needed for Text View, turns links grey when checkboxes are unclicked*/
+
+li.on {display:none;}
+
+/*needed for putting emphasis on equations and centering objects in conclusion.xhtml*/
+
+#scatterplot {margin: 0 auto;}
+
+.equation {color:black;
+    text-align:center;
+    font-size:20px;
+    font-family:"Baskerville Old Face", serif;}
