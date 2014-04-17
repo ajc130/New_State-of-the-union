@@ -14,6 +14,6 @@
     <xsl:template match="speech">
         <xsl:variable name="interval" select="10"></xsl:variable>
         <!--<xsl:variable name="year" select="@year"/>-->
-            <circle cx="{(10)*(position()-1)+ $interval}" cy="-{.}" r="3.5" fill="black"/>
+            <circle cx="{(10)*(position()-1)+ $interval}" cy="-{.*10}" r="3.5" fill="black"/>
     </xsl:template>
 </xsl:stylesheet>
