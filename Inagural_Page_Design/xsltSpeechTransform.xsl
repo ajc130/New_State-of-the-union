@@ -44,8 +44,12 @@
                     </h3>
                     
                     <xsl:apply-templates select="//body"/>
-                    
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="Marked_Up_Speeches/washington1_1.xml">XML Version</a> 
                 </div>
+                
             </body>
         </html>
     </xsl:template>

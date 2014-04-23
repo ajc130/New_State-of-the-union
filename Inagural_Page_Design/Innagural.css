@@ -170,10 +170,6 @@ p{
     padding:10px;
     float:left
 }
-
-.gallery { width:100%;
-            padding:25px;
-            margin:auto;}
 .desc{
     font-family:"Georgia";
     font-size:15px;
@@ -201,6 +197,7 @@ a{
 
 #main{
     width:80%;
+    margin-bottom:100px;
 
 }
 #infobox{
